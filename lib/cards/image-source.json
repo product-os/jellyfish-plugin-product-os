@@ -18,11 +18,11 @@
             "should_trigger"
           ]
         }
-      }
+      },
+      "required": [
+        "data"
+      ]
     },
-    "artefactType": "tar",
-    "required": [
-      "data"
-    ]
+    "artefactType": "tar"
   }
 }

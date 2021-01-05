@@ -54,11 +54,11 @@
             "image"
           ]
         }
-      }
+      },
+      "required": [
+        "data"
+      ]
     },
-    "artefactType": "image",
-    "required": [
-      "data"
-    ]
+    "artefactType": "image"
   }
 }

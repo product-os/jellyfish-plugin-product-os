@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 0.2.1 - 2021-01-07
+
+* Switch to using @balena/lint instead of standardJS [Lucian Buzzo]
+
 ## 0.2.0 - 2021-01-07
 
 * Add triggered action for matchmaking tasks to agents [Lucian Buzzo]

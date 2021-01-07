@@ -14,8 +14,9 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "standard && jest",
-    "fix": "standard --fix"
+    "test": "npm run lint && jest",
+    "lint": "balena-lint --typescript -e js lib",
+    "fix": "npm run lint -- --fix"
   },
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
@@ -26,8 +27,7 @@
   },
   "devDependencies": {
     "@balena/jellyfish-core": "^0.2.34",
-    "ava": "^3.14.0",
-    "jest": "^26.6.3",
-    "standard": "^16.0.3"
+    "@balena/lint": "^5.3.0",
+    "jest": "^26.6.3"
   }
 }

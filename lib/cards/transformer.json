@@ -46,14 +46,6 @@
             },
             "workerFilter": {
               "type": "object"
-            },
-            "image": {
-              "type": "object",
-              "properties": {
-                "name": {
-                  "type": "string"
-                }
-              }
             }
           },
           "required": [
@@ -62,10 +54,11 @@
             "image"
           ]
         }
-      }
+      },
+      "required": [
+        "data"
+      ]
     },
-    "required": [
-      "data"
-    ]
+    "artefactType": "image"
   }
 }

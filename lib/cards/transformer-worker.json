@@ -72,7 +72,10 @@
             "uuid"
           ]
         }
-      }
+      },
+      "required": [
+        "data"
+      ]
     },
     "meta": {
 			"relationships": [
@@ -82,9 +85,6 @@
 					"type": "task"
         }
       ]
-    },
-    "required": [
-      "data"
-    ]
+    }
   }
 }

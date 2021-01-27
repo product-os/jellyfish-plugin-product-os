@@ -21,28 +21,8 @@
                 }
               }
             },
-            "trigger": {
-              "type": "object",
-              "properties": {
-                "before": {
-                  "anyOf": [
-                    {
-                      "type": "object"
-                    }, {
-                      "type": "null"
-                    }
-                  ]
-                },
-                "after": {
-                  "anyOf": [
-                    {
-                      "type": "object"
-                    }, {
-                      "type": "null"
-                    }
-                  ]
-                }
-              }
+            "inputFilter": {
+              "type": "object"
             },
             "workerFilter": {
               "type": "object"
@@ -50,8 +30,8 @@
           },
           "required": [
             "requirements",
-            "trigger",
-            "image"
+            "inputFilter",
+            "workerFilter"
           ]
         }
       },

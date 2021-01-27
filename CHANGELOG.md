@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 0.2.1 - 2021-01-27
+
+* Update transformers to only use one schema for matching input contracts [Lucian Buzzo]
+
 ## 0.2.0 - 2021-01-07
 
 * Add triggered action for matchmaking tasks to agents [Lucian Buzzo]

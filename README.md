@@ -14,6 +14,6 @@ const ProductOSPlugin = require('@balena/jellyfish-plugin-product-os')
 const plugin = new ProductOSPlugin()
 
 // Load cards from this plugin, can use custom mixins
-const cards = plugin.getCards(coreMixins)
+const cards = plugin.getCards(context, coreMixins)
 console.dir(cards)
 ```

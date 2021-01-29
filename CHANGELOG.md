@@ -5,6 +5,11 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 0.2.2 - 2021-01-29
+
+* Add dependency on jellyfish-plugin-base [Graham McCulloch]
+* Use JellyfishPlugin base class [Graham McCulloch]
+
 ## 0.2.1 - 2021-01-27
 
 * Update transformers to only use one schema for matching input contracts [Lucian Buzzo]

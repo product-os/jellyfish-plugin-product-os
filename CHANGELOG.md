@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 0.2.3 - 2021-02-02
+
+* Add .whitesource configuration file [whitesource-bolt-for-github[bot]]
+
 ## 0.2.2 - 2021-01-29
 
 * Add dependency on jellyfish-plugin-base [Graham McCulloch]

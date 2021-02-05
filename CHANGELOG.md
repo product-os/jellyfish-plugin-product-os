@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.0.0 - 2021-02-05
+
+* Add actions to plugin [Graham McCulloch]
+
 ## 0.2.3 - 2021-02-02
 
 * Add .whitesource configuration file [whitesource-bolt-for-github[bot]]

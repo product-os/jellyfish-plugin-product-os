@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.0.2 - 2021-02-07
+
+* patch: Update non-major [Renovate Bot]
+
 ## 1.0.1 - 2021-02-07
 
 * Enable renovate [Josh Bowling]

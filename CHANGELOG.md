@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.0.1 - 2021-02-07
+
+* Enable renovate [Josh Bowling]
+
 ## 1.0.0 - 2021-02-05
 
 * Add actions to plugin [Graham McCulloch]

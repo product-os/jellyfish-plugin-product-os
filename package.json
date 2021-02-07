@@ -20,17 +20,17 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-assert": "^1.0.54",
-    "@balena/jellyfish-environment": "^2.3.12",
-    "@balena/jellyfish-logger": "^1.0.1",
-    "@balena/jellyfish-plugin-base": "^1.1.0",
-    "@balena/jellyfish-uuid": "^1.0.42",
+    "@balena/jellyfish-assert": "^1.0.56",
+    "@balena/jellyfish-environment": "^2.4.4",
+    "@balena/jellyfish-logger": "^1.0.6",
+    "@balena/jellyfish-plugin-base": "^1.1.1",
+    "@balena/jellyfish-uuid": "^1.0.60",
     "lodash": "^4.17.20",
     "skhema": "^5.3.3"
   },
   "devDependencies": {
     "@balena/jellyfish-core": "^0.2.34",
-    "ava": "^3.14.0",
+    "ava": "^3.15.0",
     "jest": "^26.6.3",
     "standard": "^16.0.3"
   }

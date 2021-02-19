@@ -5,6 +5,11 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.0.6 - 2021-02-19
+
+* WIP tasks schema with links [Martin Rauscher]
+* add example based tests for task type [Martin Rauscher]
+
 ## 1.0.5 - 2021-02-07
 
 * patch: Update non-major [Renovate Bot]

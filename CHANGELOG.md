@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.0.38 - 2021-02-20
+
+* Add versionbot CHANGELOG.yml [Josh Bowling]
+
 ## 1.0.37 - 2021-02-20
 
 * patch: Update non-major [Renovate Bot]

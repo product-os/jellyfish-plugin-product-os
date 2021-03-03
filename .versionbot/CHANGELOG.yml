@@ -1,4 +1,17 @@
 - commits:
+    - subject: prevent deleted workers to be match-maked
+      hash: 131c679e431ae707d2668117a321263ee21afe87
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 1.0.70
+  date: 2021-03-03T10:38:38.625Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^1.2.30'
       hash: 4e68b885856095a33903d8e83ff33811fe398c41
       body: ''

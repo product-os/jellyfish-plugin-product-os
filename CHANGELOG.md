@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.0.70 - 2021-03-03
+
+* prevent deleted workers to be match-maked [Martin Rauscher]
+
 ## 1.0.69 - 2021-03-02
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^1.2.30 [Renovate Bot]

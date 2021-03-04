@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.0.71 - 2021-03-04
+
+* fix task/worker matchmaking [Martin Rauscher]
+
 ## 1.0.70 - 2021-03-03
 
 * prevent deleted workers to be match-maked [Martin Rauscher]

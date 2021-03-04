@@ -1,4 +1,18 @@
 - commits:
+    - subject: fix task/worker matchmaking
+      hash: b368dbf6b3323afd119c041a9e6b32fed1dda30d
+      body: |
+        wrong use of skhema
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 1.0.71
+  date: 2021-03-04T08:12:01.503Z
+- commits:
     - subject: prevent deleted workers to be match-maked
       hash: 131c679e431ae707d2668117a321263ee21afe87
       body: ''

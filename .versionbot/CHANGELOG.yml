@@ -1,4 +1,27 @@
 - commits:
+    - subject: add contract-repository type
+      hash: 07628fb4903083d70cb87d1f3ea7b21d6ce504f0
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+    - subject: add `service` and `service-source` types
+      hash: 08b250a2b1f99377a7998811e2db216003e03a4d
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 1.1.0
+  date: 2021-03-11T11:50:58.128Z
+- commits:
     - subject: Remove obsolete lenses field from view card
       hash: c4eda932bf3796e52851263d7d6ae812a4f980ff
       body: ''

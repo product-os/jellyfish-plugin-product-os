@@ -5,6 +5,11 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.1.0 - 2021-03-11
+
+* add contract-repository type [Martin Rauscher]
+* add `service` and `service-source` types [Martin Rauscher]
+
 ## 1.0.79 - 2021-03-11
 
 * Remove obsolete lenses field from view card [Graham McCulloch]

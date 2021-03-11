@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.1.1 - 2021-03-11
+
+* patch: Update dependency @balena/jellyfish-logger to ^1.0.45 [Renovate Bot]
+
 ## 1.1.0 - 2021-03-11
 
 * add contract-repository type [Martin Rauscher]

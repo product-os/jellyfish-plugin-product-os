@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.0.79 - 2021-03-11
+
+* Remove obsolete lenses field from view card [Graham McCulloch]
+
 ## 1.0.78 - 2021-03-11
 
 * patch: Update dependency @balena/jellyfish-logger to ^1.0.44 [Renovate Bot]

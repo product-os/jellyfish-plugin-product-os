@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove obsolete lenses field from view card
+      hash: c4eda932bf3796e52851263d7d6ae812a4f980ff
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 1.0.79
+  date: 2021-03-11T08:06:57.336Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.44'
       hash: 54ebdab0e1994df038b6683af9728be01b6dd335
       body: ''

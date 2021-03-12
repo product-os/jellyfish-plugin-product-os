@@ -1,4 +1,17 @@
 - commits:
+    - subject: fix bad schema of contract-repository
+      hash: 9765b91f11debe7c45afad28bf4f4a0d7c03f6eb
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 1.1.4
+  date: 2021-03-12T11:07:40.478Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.46'
       hash: 5e907ba090dd69e09e6486705ca5f00197bd792e
       body: ''

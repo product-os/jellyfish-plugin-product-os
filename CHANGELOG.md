@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.1.10 - 2021-03-17
+
+* Test jellyfish-environment/pull/175 [Josh Bowling]
+
 ## 1.1.9 - 2021-03-15
 
 * patch: Update dependency @balena/jellyfish-logger to ^1.0.50 [Renovate Bot]

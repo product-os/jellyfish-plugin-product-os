@@ -1,4 +1,17 @@
 - commits:
+    - subject: Test jellyfish-core/pull/347
+      hash: 6520a2fe1cf542976911626d4bfb64f3cf6a16b7
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.1.11
+  date: 2021-03-18T00:20:02.241Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^1.2.32'
       hash: 3a03af788b2ea183e11237ca4a4390074c7f5498
       body: ''

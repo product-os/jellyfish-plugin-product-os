@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.1.11 - 2021-03-18
+
+* Test jellyfish-core/pull/347 [Josh Bowling]
+
 ## 1.1.10 - 2021-03-17
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^1.2.32 [Renovate Bot]

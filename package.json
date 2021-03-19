@@ -22,8 +22,8 @@
   "dependencies": {
     "@balena/jellyfish-assert": "^1.0.64",
     "@balena/jellyfish-environment": "^3.0.0",
-    "@balena/jellyfish-logger": "^1.0.52",
-    "@balena/jellyfish-plugin-base": "^1.2.34",
+    "@balena/jellyfish-logger": "^1.0.53",
+    "@balena/jellyfish-plugin-base": "^1.2.35",
     "@balena/jellyfish-uuid": "^1.0.72",
     "lodash": "^4.17.21",
     "skhema": "^5.3.3"

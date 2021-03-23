@@ -13,7 +13,19 @@
           "properties": {
             "type": {
               "type": "string",
-              "const": "transformer@1.0.0"
+              "const": "contract-repository@1.0.0"
+            },
+            "data": {
+              "type": "object",
+              "required": [
+                "base_type"
+              ],
+              "properties": {
+                "base_type": {
+                  "type": "string",
+                  "const": "transformer@1.0.0"
+                }
+              }
             }
           },
           "additionalProperties": true,

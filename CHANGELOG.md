@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.2.0 - 2021-03-23
+
+* view-all-transformers shows REPOS to bundle versions [Martin Rauscher]
+
 ## 1.1.24 - 2021-03-23
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^1.2.41 [Renovate Bot]

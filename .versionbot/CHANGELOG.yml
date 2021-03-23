@@ -1,4 +1,17 @@
 - commits:
+    - subject: view-all-transformers shows REPOS to bundle versions
+      hash: 605936e31d79827286394c49e4863863aa2ceaf3
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 1.2.0
+  date: 2021-03-23T13:56:38.584Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^1.2.41'
       hash: 93f71138994788b31e8cdbfbb3a668a74a4366f5
       body: ''

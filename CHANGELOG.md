@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.2.4 - 2021-03-25
+
+* Added types for the source to balena application transformers [Micah Halter]
+
 ## 1.2.3 - 2021-03-25
 
 * patch: Update dependency @balena/jellyfish-uuid to ^1.0.77 [Renovate Bot]

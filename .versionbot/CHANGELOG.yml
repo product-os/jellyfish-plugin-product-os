@@ -1,4 +1,17 @@
 - commits:
+    - subject: Added types for the source to balena application transformers
+      hash: 10e1b42981e2c9a658ebff00d4e78a47008f3570
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Micah Halter <micah@balena.io>
+        signed-off-by: Micah Halter <micah@balena.io>
+      author: Micah Halter
+      nested: []
+  version: 1.2.4
+  date: 2021-03-25T08:20:21.638Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-uuid to ^1.0.77'
       hash: 721aabd2033df49baba9c0c0e5b36d73256341fe
       body: ''

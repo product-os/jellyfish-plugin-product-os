@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.2.5 - 2021-03-25
+
+* patch: Update dependency @balena/jellyfish-assert to ^1.1.0 [Renovate Bot]
+
 ## 1.2.4 - 2021-03-25
 
 * Added types for the source to balena application transformers [Micah Halter]

@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.2.1 - 2021-03-25
+
+* patch: Update non-major [Renovate Bot]
+
 ## 1.2.0 - 2021-03-23
 
 * view-all-transformers shows REPOS to bundle versions [Martin Rauscher]

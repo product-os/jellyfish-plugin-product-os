@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update non-major'
+      hash: 05aa449be27b1cfe6eeb168edd5f9fc3770a0114
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.2.1
+  date: 2021-03-25T03:10:42.102Z
+- commits:
     - subject: view-all-transformers shows REPOS to bundle versions
       hash: 605936e31d79827286394c49e4863863aa2ceaf3
       body: ''

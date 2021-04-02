@@ -22,7 +22,7 @@
   "dependencies": {
     "@balena/jellyfish-assert": "^1.1.3",
     "@balena/jellyfish-environment": "^3.0.1",
-    "@balena/jellyfish-logger": "^2.1.17",
+    "@balena/jellyfish-logger": "^2.1.18",
     "@balena/jellyfish-plugin-base": "^2.0.25",
     "@balena/jellyfish-uuid": "^1.0.81",
     "lodash": "^4.17.21",

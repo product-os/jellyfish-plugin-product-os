@@ -1,4 +1,17 @@
 - commits:
+    - subject: 'Add dep checks, update deps, rm eslintrc'
+      hash: a8db1736e287f445a0647c20e435463f3c8dead2
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.2.19
+  date: 2021-04-03T12:13:31.014Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.0.29'
       hash: 694b9fcea0f98efe9b88ba532184d0e7e50b31e8
       body: ''

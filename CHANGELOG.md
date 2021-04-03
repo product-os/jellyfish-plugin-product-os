@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.2.19 - 2021-04-03
+
+* Add dep checks, update deps, rm eslintrc [Josh Bowling]
+
 ## 1.2.18 - 2021-04-03
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.0.29 [Renovate Bot]

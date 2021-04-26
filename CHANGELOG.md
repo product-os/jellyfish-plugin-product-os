@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 1.2.86 - 2021-04-26
+
+* patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.20 [Renovate Bot]
+
 ## 1.2.85 - 2021-04-25
 
 * Remove jellyfish-uuid from repo.yml [Josh Bowling]

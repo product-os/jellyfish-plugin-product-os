@@ -30,9 +30,9 @@
   "dependencies": {
     "@balena/jellyfish-assert": "^1.1.10",
     "@balena/jellyfish-logger": "^2.1.37",
-    "@balena/jellyfish-plugin-base": "^2.1.27",
+    "@balena/jellyfish-plugin-base": "^2.1.28",
     "lodash": "^4.17.21",
-    "skhema": "^5.3.3"
+    "skhema": "^5.3.4"
   },
   "devDependencies": {
     "@balena/jellyfish-core": "^2.0.3",

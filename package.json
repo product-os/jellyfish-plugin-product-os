@@ -28,8 +28,8 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-assert": "^1.1.9",
-    "@balena/jellyfish-logger": "^2.1.35",
+    "@balena/jellyfish-assert": "^1.1.10",
+    "@balena/jellyfish-logger": "^2.1.37",
     "@balena/jellyfish-plugin-base": "^2.1.26",
     "lodash": "^4.17.21",
     "skhema": "^5.3.3"

@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.0 - 2021-04-27
+
+* Convert to TypeScript [Graham McCulloch]
+
 ## 1.2.94 - 2021-04-27
 
 * patch: Update non-major [Renovate Bot]

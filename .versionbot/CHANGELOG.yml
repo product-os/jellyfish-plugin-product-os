@@ -1,4 +1,19 @@
 - commits:
+    - subject: Convert to TypeScript
+      hash: cb84d1c5abb51b8c5d2262c44c4b4a08c3534cc7
+      body: |
+        All cards are now defined in TypeScript files.
+        No default exports!
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.0.0
+  date: 2021-04-27T23:54:00.888Z
+- commits:
     - subject: 'patch: Update non-major'
       hash: b00024b1462b9367097ec75d5af04224ec5a65f4
       body: ''

@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.21 - 2021-05-05
+
+* patch: Update dependency catch-uncommitted to v2 [Renovate Bot]
+
 ## 2.0.20 - 2021-05-05
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.76 [Renovate Bot]

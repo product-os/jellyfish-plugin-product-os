@@ -16,7 +16,7 @@ export const image: ContractDefinition = {
 			type: 'object',
 			properties: {
 				data: {
-					type: 'object'
+					type: 'object',
 				},
 			},
 			required: ['data'],

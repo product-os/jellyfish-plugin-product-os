@@ -1,4 +1,27 @@
 - commits:
+    - subject: Fix lint errors
+      hash: 7d9a05199464bd8ef99c7e0010c7e4ed2f40e632
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: remove obsolete properties from image types
+      hash: 4af77e70214aa1e42a2cb45e8cfd21d836233a14
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 2.0.23
+  date: 2021-05-06T23:57:51.313Z
+- commits:
     - subject: 'patch: Update non-major'
       hash: a1af9993f9a9f660a8e0005e72dabbcd851e7f08
       body: ''

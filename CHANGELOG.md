@@ -5,6 +5,11 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.23 - 2021-05-06
+
+* Fix lint errors [Josh Bowling]
+* remove obsolete properties from image types [Martin Rauscher]
+
 ## 2.0.22 - 2021-05-06
 
 * patch: Update non-major [Renovate Bot]

@@ -17,16 +17,9 @@ export const image: ContractDefinition = {
 			properties: {
 				data: {
 					type: 'object',
-					properties: {
-						should_trigger: {
-							type: 'boolean',
-						},
-					},
-					required: ['should_trigger'],
 				},
 			},
 			required: ['data'],
 		},
-		artefactType: 'image',
 	},
 };

@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.24 - 2021-05-07
+
+* patch: Update dependency @balena/jellyfish-logger to ^2.1.47 [Renovate Bot]
+
 ## 2.0.23 - 2021-05-06
 
 * Fix lint errors [Josh Bowling]

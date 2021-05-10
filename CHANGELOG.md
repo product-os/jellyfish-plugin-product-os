@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.31 - 2021-05-10
+
+* patch: Update dependency @balena/jellyfish-types to ^0.5.115 [Renovate Bot]
+
 ## 2.0.30 - 2021-05-08
 
 * patch: Update non-major [Renovate Bot]

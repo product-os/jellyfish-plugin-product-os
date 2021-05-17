@@ -7,8 +7,8 @@
 import * as assert from '@balena/jellyfish-assert';
 import { getLogger } from '@balena/jellyfish-logger';
 import { ActionFile } from '@balena/jellyfish-plugin-base';
+import filter from 'lodash/filter';
 import get from 'lodash/get';
-import reverse from 'lodash/reverse';
 import sortBy from 'lodash/sortBy';
 import skhema from 'skhema';
 
@@ -51,12 +51,18 @@ const handler: ActionFile['handler'] = async (
 			safeWorkerQuery,
 		);
 
-		// Sort the agents by the best match
-		const [bestMatchedWorker] = reverse(
-			sortBy(workers, (item) => {
-				return skhema.scoreMatch(safeWorkerQuery, item);
-			}),
+		// Workers should update their status regularly to ensure they are available and tasks don't starve
+		const now = new Date().getTime();
+		const maxAge = 15 * 60 * 1000;
+		const aliveWorkers = filter(
+			workers,
+			(w) => now - new Date(w.update_at).getTime() < maxAge,
 		);
+
+		// Sort the agents by the best match and randomize ties
+		const [bestMatchedWorker] = sortBy(aliveWorkers, (w) => {
+			return -1 * skhema.scoreMatch(safeWorkerQuery, w) + Math.random();
+		});
 
 		// Assign the task to the agent
 		if (bestMatchedWorker) {

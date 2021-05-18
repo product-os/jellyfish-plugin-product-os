@@ -1,4 +1,17 @@
 - commits:
+    - subject: Don't deep import mixins from jellyfish-core
+      hash: 77f729f8b2e77e052e0fae38e12c769242b223e9
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 2.0.41
+  date: 2021-05-18T16:26:29.363Z
+- commits:
     - subject: 'patch: Update non-major'
       hash: 49743827d5de927a17660b286b728db59b77e302
       body: ''

@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.41 - 2021-05-18
+
+* Don't deep import mixins from jellyfish-core [Lucian Buzzo]
+
 ## 2.0.40 - 2021-05-17
 
 * patch: Update non-major [Renovate Bot]

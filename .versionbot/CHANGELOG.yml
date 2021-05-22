@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update tsc build command
+      hash: 6213f58ad4c75fc964dd07c8cdd7bdfd4c821443
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.52
+  date: 2021-05-22T23:49:41.370Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-core to ^2.13.129'
       hash: a40f37ff289268ede396e710a077db8cbccbe7b8
       body: ''

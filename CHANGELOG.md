@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.54 - 2021-05-23
+
+* patch: Update internal-non-major [Renovate Bot]
+
 ## 2.0.53 - 2021-05-23
 
 * Update renovate config [Josh Bowling]

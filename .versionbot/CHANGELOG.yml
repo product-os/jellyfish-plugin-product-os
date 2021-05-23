@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovate config
+      hash: 1acee1872977acc25b8d8a04ca39dbca37f588c4
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.53
+  date: 2021-05-23T02:48:50.737Z
+- commits:
     - subject: Update tsc build command
       hash: 6213f58ad4c75fc964dd07c8cdd7bdfd4c821443
       body: ''

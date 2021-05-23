@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.53 - 2021-05-23
+
+* Update renovate config [Josh Bowling]
+
 ## 2.0.52 - 2021-05-22
 
 * Update tsc build command [Josh Bowling]

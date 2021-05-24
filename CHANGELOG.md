@@ -5,6 +5,11 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.60 - 2021-05-24
+
+* Update jellyfish-config and lint command [Josh Bowling]
+* patch: Update dependency @balena/lint to v6 [Renovate Bot]
+
 ## 2.0.59 - 2021-05-24
 
 * patch: Update internal-patch [Renovate Bot]

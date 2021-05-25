@@ -1,4 +1,17 @@
 - commits:
+    - subject: filter dead transformer workers and improve fairness
+      hash: c30f345250cbafd9e3b66e626181f73f2d5b0c4c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 2.0.70
+  date: 2021-05-25T07:00:33.079Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: d1dd7010c522d9dd4e7c90c393d3833adf298c7d
       body: ''

@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.70 - 2021-05-25
+
+* filter dead transformer workers and improve fairness [Martin Rauscher]
+
 ## 2.0.69 - 2021-05-25
 
 * patch: Update internal-patch [Renovate Bot]

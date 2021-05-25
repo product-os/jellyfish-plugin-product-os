@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.65 - 2021-05-24
+
+* patch: Update dependency @balena/lint to ^6.1.1 [Renovate Bot]
+
 ## 2.0.64 - 2021-05-24
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.102 [Renovate Bot]

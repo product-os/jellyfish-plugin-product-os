@@ -5,6 +5,11 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.70 - 2021-05-26
+
+* Remove temporary (and incorrect!) type declarations [Graham McCulloch]
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.0.69 - 2021-05-25
 
 * patch: Update internal-patch [Renovate Bot]

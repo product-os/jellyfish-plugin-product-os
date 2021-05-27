@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update to typescript version of core module
+      hash: aadc5ca1aadfbd8a6680c970056b94b90d5c9f8a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 2.0.81
+  date: 2021-05-27T15:56:30.650Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.114'
       hash: 90181939863d7a5dc7bba48497df0fdf29995753
       body: ''

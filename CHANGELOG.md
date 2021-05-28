@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.82 - 2021-05-28
+
+* patch: Update dependency @balena/jellyfish-core to v3 [Renovate Bot]
+
 ## 2.0.81 - 2021-05-27
 
 * Update to typescript version of core module [Lucian Buzzo]

@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.84 - 2021-05-29
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.0.83 - 2021-05-29
 
 * patch: Update dependency typescript to ^4.3.2 [Renovate Bot]

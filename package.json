@@ -50,7 +50,7 @@
     "@balena/jellyfish-assert": "^1.1.36",
     "@balena/jellyfish-logger": "^2.1.92",
     "@balena/jellyfish-plugin-base": "^2.1.122",
-    "@balena/jellyfish-types": "^0.5.132",
+    "@balena/jellyfish-types": "^0.5.133",
     "lodash": "^4.17.21",
     "skhema": "^5.3.4"
   },

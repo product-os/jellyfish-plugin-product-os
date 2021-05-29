@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.94 - 2021-05-29
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.0.93 - 2021-05-29
 
 * patch: Update dependency jest to ^27.0.2 [Renovate Bot]

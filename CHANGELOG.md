@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.83 - 2021-05-29
+
+* patch: Update dependency typescript to ^4.3.2 [Renovate Bot]
+
 ## 2.0.82 - 2021-05-28
 
 * patch: Update dependency @balena/jellyfish-core to v3 [Renovate Bot]

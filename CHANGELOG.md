@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.105 - 2021-06-02
+
+* Remove unnecessary catch-uncommitted [Josh Bowling]
+
 ## 2.0.104 - 2021-05-31
 
 * patch: Update dependency @balena/jellyfish-logger to v3 [Renovate Bot]

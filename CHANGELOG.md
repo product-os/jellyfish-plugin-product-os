@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.106 - 2021-06-03
+
+* Improve lint-staged config [Josh Bowling]
+
 ## 2.0.105 - 2021-06-02
 
 * Remove unnecessary catch-uncommitted [Josh Bowling]

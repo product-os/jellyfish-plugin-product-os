@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.107 - 2021-06-06
+
+* patch: Update external-non-major [Renovate Bot]
+
 ## 2.0.106 - 2021-06-03
 
 * Improve lint-staged config [Josh Bowling]

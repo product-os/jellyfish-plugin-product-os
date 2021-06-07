@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.110 - 2021-06-07
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.0.109 - 2021-06-07
 
 * Fix TypeScript error [Graham McCulloch]

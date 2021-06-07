@@ -5,6 +5,11 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.109 - 2021-06-07
+
+* Fix TypeScript error [Graham McCulloch]
+* patch: Update dependency @balena/jellyfish-types to ^0.6.2 [Renovate Bot]
+
 ## 2.0.108 - 2021-06-07
 
 * patch: Update dependency ts-jest to ^27.0.3 [Renovate Bot]

@@ -1,4 +1,26 @@
 - commits:
+    - subject: Fix TypeScript error
+      hash: 3257d5a55e2b2a22bea6b69b84efad0215a8f2a3
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.6.2'
+      hash: 6c83c7a90ccfc6fe2a973c3feca50606d917b4f1
+      body: |
+        Update @balena/jellyfish-types from 0.5.137 to 0.6.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.109
+  date: 2021-06-07T02:06:11.236Z
+- commits:
     - subject: 'patch: Update dependency ts-jest to ^27.0.3'
       hash: 822190c541fcde8d9ff1db47d93023791abc5e64
       body: ''

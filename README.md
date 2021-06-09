@@ -8,14 +8,14 @@ loops and transformers.
 Below is an example how to use this library:
 
 ```js
-const coreMixins = require('@balena/jellyfish-core/lib/cards/mixins')
-const ProductOSPlugin = require('@balena/jellyfish-plugin-product-os')
+import { cardMixins } from '@balena/jellyfish-core';
+import ProductOSPlugin from '@balena/jellyfish-plugin-product-os';
 
-const plugin = new ProductOSPlugin()
+const plugin = new ProductOSPlugin();
 
 // Load cards from this plugin, can use custom mixins
-const cards = plugin.getCards(context, coreMixins)
-console.dir(cards)
+const cards = plugin.getCards(context, cardMixins);
+console.dir(cards);
 ```
 
 # Documentation
@@ -23,3 +23,7 @@ console.dir(cards)
 [![Publish Documentation](https://github.com/product-os/jellyfish-plugin-product-os/actions/workflows/publish-docs.yml/badge.svg)](https://github.com/product-os/jellyfish-plugin-product-os/actions/workflows/publish-docs.yml)
 
 Visit the website for complete documentation: https://product-os.github.io/jellyfish-plugin-product-os
+
+# Testing
+
+Unit tests can be easily run with the command `npm test`.

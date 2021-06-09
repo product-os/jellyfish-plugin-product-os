@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.118 - 2021-06-09
+
+* Update README [Josh Bowling]
+
 ## 2.0.117 - 2021-06-09
 
 * Remove Makefile [Josh Bowling]

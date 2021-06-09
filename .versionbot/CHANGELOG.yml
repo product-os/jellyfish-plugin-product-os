@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update README
+      hash: 77057bd1cae59a3f354e4115fb5d2fd5920a1caf
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.118
+  date: 2021-06-09T23:07:42.442Z
+- commits:
     - subject: Remove Makefile
       hash: edb5210da730c3e401ac8d66e0a7c6655691a045
       body: ''

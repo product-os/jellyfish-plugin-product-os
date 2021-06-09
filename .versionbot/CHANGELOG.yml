@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove Makefile
+      hash: edb5210da730c3e401ac8d66e0a7c6655691a045
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.117
+  date: 2021-06-09T06:08:51.461Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.146'
       hash: 67c22a9e0cb8d2eb4e3f811abec0b7711210f046
       body: ''

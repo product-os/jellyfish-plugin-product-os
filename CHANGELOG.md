@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.125 - 2021-06-15
+
+* Remove redundant meta relationships [Graham McCulloch]
+
 ## 2.0.124 - 2021-06-15
 
 * patch: Update internal-patch [Renovate Bot]

@@ -1,4 +1,19 @@
 - commits:
+    - subject: Remove redundant meta relationships
+      hash: 504d5f4116b9711bd851c623132b3cbeca048a9a
+      body: >
+        These are now materialized automatically on the front-end using link
+        constraints.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.0.125
+  date: 2021-06-15T02:07:11.551Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 06ab5db4a8f24f128bcf0335a68f2400d72ecb10
       body: ''

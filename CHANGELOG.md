@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.129 - 2021-06-15
+
+* don't use dead transformer workers [Martin Rauscher]
+
 ## 2.0.128 - 2021-06-15
 
 * patch: Update internal-patch [Renovate Bot]

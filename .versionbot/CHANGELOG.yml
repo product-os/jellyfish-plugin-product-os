@@ -1,4 +1,17 @@
 - commits:
+    - subject: don't use dead transformer workers
+      hash: 57c5bb15a4af8891db16a8bf8b5c1fecc476197b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 2.0.129
+  date: 2021-06-15T08:14:41.161Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 32abe9e200e2df4e5736853f31344cd4bff35390
       body: ''

@@ -32,15 +32,24 @@ const handler: ActionFile['handler'] = async (
 	const matcher = get(card, ['data', 'workerFilter', 'schema']);
 
 	if (matcher) {
-		// the privileged session would also allow querying for deleted contracts
+		// the privileged session would allow querying for deleted contracts and
+		// we currently have no worker cleanup implemented
+		const workerMaxAge = 10 * 60 * 1000;
 		const safeWorkerQuery = skhema.merge([
 			matcher,
 			{
 				type: 'object',
-				required: ['active'],
+				required: ['active', 'updated_at'],
 				properties: {
 					active: {
 						const: true,
+					},
+					updated_at: {
+						type: 'string',
+						format: 'date-time',
+						formatMinimum: new Date(
+							new Date().getTime() - workerMaxAge,
+						).toISOString(),
 					},
 				},
 			},

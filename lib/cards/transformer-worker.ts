@@ -81,14 +81,5 @@ export const transformerWorker: ContractDefinition = {
 			},
 			required: ['data'],
 		},
-		meta: {
-			relationships: [
-				{
-					title: 'Tasks',
-					link: 'owns',
-					type: 'task',
-				},
-			],
-		},
 	},
 };

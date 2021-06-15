@@ -40,19 +40,5 @@ export const contractRepository: ContractDefinition = {
 			},
 		},
 		indexed_fields: [['data.base_slug'], ['data.base_type']],
-		meta: {
-			relationships: [
-				{
-					title: 'Latest Version of the Repository',
-					link: 'latest',
-					// type: '*'
-				},
-				{
-					title: 'Repository contains contracts',
-					link: 'contains',
-					// type: '*'
-				},
-			],
-		},
 	},
 };

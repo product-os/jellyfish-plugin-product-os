@@ -95,6 +95,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="types_contracts_contract_repository.contractrepositorycontractdefinition.html#capabilities" class="tsd-kind-icon">capabilities</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="types_contracts_contract_repository.contractrepositorycontractdefinition.html#data" class="tsd-kind-icon">data</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="types_contracts_contract_repository.contractrepositorycontractdefinition.html#id" class="tsd-kind-icon">id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="types_contracts_contract_repository.contractrepositorycontractdefinition.html#loop" class="tsd-kind-icon">loop</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="types_contracts_contract_repository.contractrepositorycontractdefinition.html#markers" class="tsd-kind-icon">markers</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="types_contracts_contract_repository.contractrepositorycontractdefinition.html#name" class="tsd-kind-icon">name</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="types_contracts_contract_repository.contractrepositorycontractdefinition.html#requires" class="tsd-kind-icon">requires</a></li>
@@ -116,7 +117,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from Omit.active</p>
 						<ul>
-							<li>Defined in node_modules/@balena/jellyfish-types/build/core/contracts/contract.d.ts:58</li>
+							<li>Defined in node_modules/@balena/jellyfish-types/build/core/contracts/contract.d.ts:62</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -132,7 +133,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from Omit.capabilities</p>
 						<ul>
-							<li>Defined in node_modules/@balena/jellyfish-types/build/core/contracts/contract.d.ts:72</li>
+							<li>Defined in node_modules/@balena/jellyfish-types/build/core/contracts/contract.d.ts:76</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -148,7 +149,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from ContractRepositoryData.data</p>
 						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-product-os/blob/2784804/lib/types/contracts/contract-repository.ts#L16">lib/types/contracts/contract-repository.ts:16</a></li>
+							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-product-os/blob/d8f5840/lib/types/contracts/contract-repository.ts#L16">lib/types/contracts/contract-repository.ts:16</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -183,13 +184,29 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
+					<a name="loop" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> loop</h3>
+					<div class="tsd-signature tsd-kind-icon">loop<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from Omit.loop</p>
+						<ul>
+							<li>Defined in node_modules/@balena/jellyfish-types/build/core/contracts/contract.d.ts:32</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The slug of the loop that the contract belongs to.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 					<a name="markers" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> markers</h3>
 					<div class="tsd-signature tsd-kind-icon">markers<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<p>Inherited from Omit.markers</p>
 						<ul>
-							<li>Defined in node_modules/@balena/jellyfish-types/build/core/contracts/contract.d.ts:42</li>
+							<li>Defined in node_modules/@balena/jellyfish-types/build/core/contracts/contract.d.ts:46</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -221,7 +238,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from Omit.requires</p>
 						<ul>
-							<li>Defined in node_modules/@balena/jellyfish-types/build/core/contracts/contract.d.ts:66</li>
+							<li>Defined in node_modules/@balena/jellyfish-types/build/core/contracts/contract.d.ts:70</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -253,7 +270,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from Omit.tags</p>
 						<ul>
-							<li>Defined in node_modules/@balena/jellyfish-types/build/core/contracts/contract.d.ts:38</li>
+							<li>Defined in node_modules/@balena/jellyfish-types/build/core/contracts/contract.d.ts:42</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -269,14 +286,14 @@
 					<aside class="tsd-sources">
 						<p>Inherited from Omit.type</p>
 						<ul>
-							<li>Defined in node_modules/@balena/jellyfish-types/build/core/contracts/contract.d.ts:34</li>
+							<li>Defined in node_modules/@balena/jellyfish-types/build/core/contracts/contract.d.ts:38</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>The type of this contract. The type value should include the version.</p>
 						</div>
-						<p>For example: &#39;my-type@1.0.0&#39;</p>
+						<p>For example: &#39;<a href="mailto:my-type@1.0.0">my-type@1.0.0</a>&#39;</p>
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
@@ -301,7 +318,7 @@
 			<nav class="tsd-navigation primary">
 				<ul>
 					<li class=" ">
-						<a href="../modules.html">Exports</a>
+						<a href="../modules.html">Modules</a>
 					</li>
 					<li class="current tsd-kind-module">
 						<a href="../modules/types_contracts_contract_repository.html">types/contracts/contract-<wbr>repository</a>
@@ -329,6 +346,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 								<a href="types_contracts_contract_repository.contractrepositorycontractdefinition.html#id" class="tsd-kind-icon">id</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
+								<a href="types_contracts_contract_repository.contractrepositorycontractdefinition.html#loop" class="tsd-kind-icon">loop</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 								<a href="types_contracts_contract_repository.contractrepositorycontractdefinition.html#markers" class="tsd-kind-icon">markers</a>

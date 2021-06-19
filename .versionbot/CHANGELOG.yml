@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 6a77901d4ef73a27964582f7fef13fb3db5d280d
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.130
+  date: 2021-06-19T01:55:39.050Z
+- commits:
     - subject: don't use dead transformer workers
       hash: 57c5bb15a4af8891db16a8bf8b5c1fecc476197b
       body: ''

@@ -11,7 +11,6 @@ import { contractRepository } from './contract-repository';
 import { genericSource } from './generic-source';
 import { image } from './image';
 import { imageSource } from './image-source';
-import { loop } from './loop';
 import { loopProductOs } from './loop-product-os';
 import { roleLoop } from './role-loop';
 import { roleTransformerWorker } from './role-transformer-worker';
@@ -32,7 +31,6 @@ export const cards = [
 	genericSource,
 	image,
 	imageSource,
-	loop,
 	loopProductOs,
 	roleLoop,
 	roleTransformerWorker,

@@ -1,4 +1,28 @@
 - commits:
+    - subject: Bump jellyfish-core dev dependency
+      hash: df372a9fff095230ba8f7cc6a33386eacb0b1211
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+    - subject: Remove loop contract
+      hash: 173ee52dcf8a48e366658b760b8bb89bc76b039d
+      body: |
+        This contract is now defined in jellyfish-core
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.1.0
+  date: 2021-06-24T04:56:26.190Z
+- commits:
     - subject: Add JF peer dependencies
       hash: f2af1d8e824cb15e034baad3443b7465a085cdf9
       body: ''

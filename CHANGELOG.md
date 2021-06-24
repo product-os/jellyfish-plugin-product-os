@@ -5,6 +5,11 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.1.0 - 2021-06-24
+
+* Bump jellyfish-core dev dependency [Graham McCulloch]
+* Remove loop contract [Graham McCulloch]
+
 ## 2.0.143 - 2021-06-24
 
 * Add JF peer dependencies [Josh Bowling]

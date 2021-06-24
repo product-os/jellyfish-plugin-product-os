@@ -11,7 +11,6 @@
 export * from './contract-repository';
 export * from './image';
 export * from './image-source';
-export * from './loop';
 export * from './service';
 export * from './service-source';
 export * from './transformer';

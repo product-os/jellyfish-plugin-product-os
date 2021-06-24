@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.0.143 - 2021-06-24
+
+* Add JF peer dependencies [Josh Bowling]
+
 ## 2.0.142 - 2021-06-23
 
 * patch: Update internal-patch [Renovate Bot]

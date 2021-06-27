@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.1.9 - 2021-06-27
+
+* patch: Update dependency simple-git-hooks to ^2.5.1 [Renovate Bot]
+
 ## 2.1.8 - 2021-06-27
 
 * patch: Update dependency typedoc to ^0.21.2 [Renovate Bot]

@@ -1,4 +1,15 @@
 - commits:
+    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+      hash: 966f04020772bca45a23375b5a9f90f1480b8a49
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: jellyfish-bot
+      nested: []
+  version: 2.1.11
+  date: 2021-06-29T10:05:13.381Z
+- commits:
     - subject: Bump node engines specification
       hash: 0661ee6b5fa2b45d4327d7279382811072023f8c
       body: ''

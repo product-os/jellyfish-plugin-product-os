@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 396c988b9107bf4a54aab58a9d5d6b58ebaf7e86
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.16
+  date: 2021-06-30T02:04:29.264Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.171'
       hash: 66ad769c37070fadf66b91e03dc9261c9adfb583
       body: ''

@@ -5,6 +5,7 @@
  */
 
 import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
+import { mergeProperties } from './transformer-merge-properties';
 
 export const transformer: ContractDefinition = {
 	slug: 'transformer',
@@ -18,6 +19,12 @@ export const transformer: ContractDefinition = {
 				data: {
 					type: 'object',
 					properties: {
+						$transformer: {
+							type: 'object',
+							properties: {
+								...mergeProperties,
+							},
+						},
 						requirements: {
 							type: 'object',
 							properties: {

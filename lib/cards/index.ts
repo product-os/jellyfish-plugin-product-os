@@ -19,6 +19,7 @@ import { serviceSource } from './service-source';
 import { task } from './task';
 import { transformer } from './transformer';
 import { transformerWorker } from './transformer-worker';
+import { triggeredActionMergeDraftVersion } from './triggered-action-merge-draft-version';
 import { triggeredActionMatchmakeTask } from './triggered-action-matchmake-task';
 import { viewAllTransformerWorkers } from './view-all-transformer-workers';
 import { viewAllTransformers } from './view-all-transformers';
@@ -39,6 +40,7 @@ export const cards = [
 	serviceSource,
 	transformerWorker,
 	transformer,
+	triggeredActionMergeDraftVersion,
 	triggeredActionMatchmakeTask,
 	viewAllTransformerWorkers,
 	viewAllTransformers,

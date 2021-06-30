@@ -1,4 +1,27 @@
 - commits:
+    - subject: add merge-draft-version triggered action
+      hash: 1d4cbf8a61793a399ac4afd22458c02e045c3738
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+    - subject: add merge rules known transformer contracts
+      hash: f80c51a9c76411a00c115c3574531b0162a89bf5
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 2.2.0
+  date: 2021-06-30T10:49:01.250Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.175'
       hash: 9c90ccadbea4536d56fd85770f900ebf4204c6dd
       body: ''

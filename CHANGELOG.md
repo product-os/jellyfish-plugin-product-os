@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.4.0 - 2021-07-06
+
+* Add mergeable to transformer [Stathis]
+
 ## 2.3.0 - 2021-07-06
 
 * Add service-source mergeable [Stathis]

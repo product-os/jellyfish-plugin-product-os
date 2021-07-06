@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add mergeable to transformer
+      hash: 6a6dc0d0bdf614b7377fb64dc6415ad55eb81b1d
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Stathis Moraitidis <stathis@balena.io>
+        signed-off-by: Stathis Moraitidis <stathis@balena.io>
+      author: Stathis
+      nested: []
+  version: 2.4.0
+  date: 2021-07-06T16:08:41.992Z
+- commits:
     - subject: Add service-source mergeable
       hash: 9c7ed3409af6cdb0482ba8c534f390fd50637510
       body: >

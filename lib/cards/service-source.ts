@@ -23,6 +23,13 @@ export const serviceSource: ContractDefinition = {
 							type: 'object',
 							properties: {
 								...mergeProperties,
+								mergeable: {
+									description: 'all platforms have an image',
+									type: 'boolean',
+									$$formula: 'EVERY(VALUES(this.data.platforms), "image")',
+									readOnly: true,
+									default: false,
+								},
 							},
 						},
 					},

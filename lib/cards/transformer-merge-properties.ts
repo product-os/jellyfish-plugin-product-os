@@ -64,6 +64,5 @@ export const mergeProperties = {
 	artifactReady: {
 		description: 'artifact is created',
 		type: ['boolean', 'string'],
-		readOnly: true,
 	},
 };

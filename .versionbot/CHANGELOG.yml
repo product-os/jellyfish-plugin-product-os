@@ -1,4 +1,19 @@
 - commits:
+    - subject: Add service-source mergeable
+      hash: 9c7ed3409af6cdb0482ba8c534f390fd50637510
+      body: >
+        Service source contract has a mergeable field, indicating whether all
+        platforms have an image built.
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Stathis Moraitidis <stathis@balena.io>
+        signed-off-by: Stathis Moraitidis <stathis@balena.io>
+      author: Stathis
+      nested: []
+  version: 2.3.0
+  date: 2021-07-06T11:45:01.814Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: e756cbf9e1801bf11c959b23d41b2de2d3d22c4d
       body: ''

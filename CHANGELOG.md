@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.3.0 - 2021-07-06
+
+* Add service-source mergeable [Stathis]
+
 ## 2.2.8 - 2021-07-05
 
 * patch: Update internal-patch [Renovate Bot]

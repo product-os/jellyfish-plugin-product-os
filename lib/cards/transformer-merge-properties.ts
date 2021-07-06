@@ -60,4 +60,10 @@ export const mergeProperties = {
 		$$formula: isFinalVersion,
 		readOnly: true,
 	},
+
+	artifactReady: {
+		description: 'artifact is created',
+		type: ['boolean', 'string'],
+		readOnly: true,
+	},
 };

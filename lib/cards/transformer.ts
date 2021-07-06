@@ -23,6 +23,12 @@ export const transformer: ContractDefinition = {
 							type: 'object',
 							properties: {
 								...mergeProperties,
+								mergeable: {
+									description: 'all platforms have an image',
+									type: 'boolean',
+									$$formula: '!!this.data.$transformer.artifactReady',
+									default: false,
+								},
 							},
 						},
 						requirements: {

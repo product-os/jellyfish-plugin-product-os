@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.4.19 - 2021-07-17
+
+* patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.198 [Renovate Bot]
+
 ## 2.4.18 - 2021-07-17
 
 * Remove whitesource config [Josh Bowling]

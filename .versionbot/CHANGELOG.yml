@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.198'
+      hash: 15f5f870501a1fb425bc03803bacce8e2a5a368b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.4.19
+  date: 2021-07-17T00:25:43.698Z
+- commits:
     - subject: Remove whitesource config
       hash: 53cea9c0123eee5fc878d4b4c118cc598ae9f147
       body: ''

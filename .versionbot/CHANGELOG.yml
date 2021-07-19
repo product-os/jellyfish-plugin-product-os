@@ -1,4 +1,20 @@
 - commits:
+    - subject: Add more loop contracts
+      hash: e2ab62b80ae5889d7b7120d383b100779e8ea597
+      body: >
+        In due course these loops should not be defined in this plugin. But for
+        now we are  defining all loop contracts in `jellyfish-plugin-product-os`
+        as we already know we need to move `loop-product-os` out of this plugin.
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.5.0
+  date: 2021-07-19T10:39:10.670Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 564f564324b8815c5276a4e400dafe263584ad1e
       body: ''

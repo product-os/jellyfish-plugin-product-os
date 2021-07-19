@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.5.0 - 2021-07-19
+
+* Add more loop contracts [Graham McCulloch]
+
 ## 2.4.22 - 2021-07-17
 
 * patch: Update internal-patch [Renovate Bot]

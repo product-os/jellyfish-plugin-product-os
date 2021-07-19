@@ -11,7 +11,11 @@ import { contractRepository } from './contract-repository';
 import { genericSource } from './generic-source';
 import { image } from './image';
 import { imageSource } from './image-source';
+import { loopBalenaIo } from './loop-balena-io';
+import { loopBalenalabs } from './loop-balenalabs';
+import { loopCompanyOs } from './loop-company-os';
 import { loopProductOs } from './loop-product-os';
+import { loopTeamOs } from './loop-team-os';
 import { roleLoop } from './role-loop';
 import { roleTransformerWorker } from './role-transformer-worker';
 import { service } from './service';
@@ -32,7 +36,11 @@ export const cards = [
 	genericSource,
 	image,
 	imageSource,
+	loopBalenaIo,
+	loopBalenalabs,
+	loopCompanyOs,
 	loopProductOs,
+	loopTeamOs,
 	roleLoop,
 	roleTransformerWorker,
 	task,

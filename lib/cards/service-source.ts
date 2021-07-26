@@ -26,7 +26,7 @@ export const serviceSource: ContractDefinition = {
 								mergeable: {
 									description: 'all platforms have an image',
 									type: 'boolean',
-									$$formula: 'EVERY(VALUES(this.data.platforms), "image")',
+									$$formula: 'EVERY(VALUES(contract.data.platforms), "image")',
 									readOnly: true,
 									default: false,
 								},

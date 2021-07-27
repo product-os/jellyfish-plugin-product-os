@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update evaluated fields to reference 'contract' instead of 'this'
+      hash: 05f5dd064d6de2a13bfddb115957047408150b9a
+      body: |
+        Compatible with new jellyscript.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.5.1
+  date: 2021-07-27T03:31:27.642Z
+- commits:
     - subject: Add more loop contracts
       hash: e2ab62b80ae5889d7b7120d383b100779e8ea597
       body: >

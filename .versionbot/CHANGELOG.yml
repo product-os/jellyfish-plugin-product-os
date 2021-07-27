@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update jellyfish dev dependencies
+      hash: 1113f96046ee681ee2d559f34b7b82c223c66b15
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.5.2
+  date: 2021-07-27T06:44:51.284Z
+- commits:
     - subject: Update evaluated fields to reference 'contract' instead of 'this'
       hash: 05f5dd064d6de2a13bfddb115957047408150b9a
       body: |

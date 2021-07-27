@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.5.2 - 2021-07-27
+
+* Update jellyfish dev dependencies [Graham McCulloch]
+
 ## 2.5.1 - 2021-07-27
 
 * Update evaluated fields to reference 'contract' instead of 'this' [Graham McCulloch]

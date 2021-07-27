@@ -26,7 +26,7 @@ export const transformer: ContractDefinition = {
 								mergeable: {
 									description: 'all platforms have an image',
 									type: 'boolean',
-									$$formula: '!!this.data.$transformer.artifactReady',
+									$$formula: '!!contract.data.$transformer.artifactReady',
 									default: false,
 								},
 							},

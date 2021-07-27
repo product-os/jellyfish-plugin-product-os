@@ -4,7 +4,7 @@
  * Proprietary and confidential.
  */
 
-const isDraftVersion = '/^[^+]*-/.test(this.version)';
+const isDraftVersion = '/^[^+]*-/.test(contract.version)';
 const isFinalVersion = '!' + isDraftVersion;
 
 export const mergeProperties = {
@@ -13,7 +13,7 @@ export const mergeProperties = {
 		description: 'parent contract was already merged',
 		type: 'boolean',
 		$$formula:
-			'EVERY(this.links["was built from"], "data.$transformer.merged") === true',
+			'EVERY(contract.links["was built from"], "data.$transformer.merged") === true',
 		readOnly: true,
 		default: false,
 	},
@@ -29,7 +29,7 @@ export const mergeProperties = {
 	merged: {
 		description: 'was merged as a final version',
 		type: 'boolean',
-		$$formula: 'this.links["was merged as"].length > 0',
+		$$formula: 'contract.links["was merged as"].length > 0',
 		readOnly: true,
 		default: false,
 	},
@@ -46,10 +46,10 @@ export const mergeProperties = {
 		description: 'all downstream contracts are merged',
 		type: 'boolean',
 		$$formula: `(${isDraftVersion}
-									&& EVERY(this.links["was built into"], "data.$transformer.merged")
-									&& EVERY(this.links["was built into"], "data.$transformer.mergeConfirmed")
+									&& EVERY(contract.links["was built into"], "data.$transformer.merged")
+									&& EVERY(contract.links["was built into"], "data.$transformer.mergeConfirmed")
 								) || (${isFinalVersion}
-									&& PROPERTY(this.links["was merged from"][0], "data.$transformer.mergeConfirmed") === true )`,
+									&& PROPERTY(contract.links["was merged from"][0], "data.$transformer.mergeConfirmed") === true )`,
 		readOnly: true,
 	},
 

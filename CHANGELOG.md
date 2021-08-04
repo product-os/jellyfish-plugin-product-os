@@ -5,6 +5,11 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.5.13 - 2021-08-04
+
+* Fix call to lint:fix [Josh Bowling]
+* use balena convention for npm script names [Martin Rauscher]
+
 ## 2.5.12 - 2021-07-31
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.211 [Renovate Bot]

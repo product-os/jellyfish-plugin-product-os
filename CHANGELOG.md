@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.5.14 - 2021-08-05
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.5.13 - 2021-08-04
 
 * Fix call to lint:fix [Josh Bowling]

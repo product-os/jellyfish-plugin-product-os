@@ -8,6 +8,14 @@ const isDraftVersion = '/^[^+]*-/.test(contract.version)';
 const isFinalVersion = '!' + isDraftVersion;
 
 export const mergeProperties = {
+	// used to enforce triggered action re-creation after bug-fixes in the formula engine
+	formulaVersion: {
+		type: 'number',
+		$$formula: '1',
+		readOnly: true,
+		default: 0,
+	},
+
 	// this.links."was built from".merged
 	parentMerged: {
 		description: 'parent contract was already merged',

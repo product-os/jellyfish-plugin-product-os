@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 9c991e36f7a27d85f9d7a61dd7cc236f1c470a54
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.5.17
+  date: 2021-08-09T08:29:48.915Z
+- commits:
     - subject: add formula version to enforce re-creation fo triggered actions
       hash: aaf767fa7abc85fd231a501c79594dd49a39c3fa
       body: >

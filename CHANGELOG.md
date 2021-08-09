@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.5.17 - 2021-08-09
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.5.16 - 2021-08-09
 
 * add formula version to enforce re-creation fo triggered actions [Martin Rauscher]

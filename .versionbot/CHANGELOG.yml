@@ -1,4 +1,21 @@
 - commits:
+    - subject: add formula version to enforce re-creation fo triggered actions
+      hash: aaf767fa7abc85fd231a501c79594dd49a39c3fa
+      body: >
+        this is needed, because bug-fixes in Jellyscript change the triggered
+        actions,
+
+        but not the types and therefore that code never gets executed
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 2.5.16
+  date: 2021-08-09T08:20:50.331Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.213'
       hash: 025daed4e04cb2f8b18f3e380771de815d25a410
       body: ''

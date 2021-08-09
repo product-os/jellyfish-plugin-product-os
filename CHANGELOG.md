@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.5.16 - 2021-08-09
+
+* add formula version to enforce re-creation fo triggered actions [Martin Rauscher]
+
 ## 2.5.15 - 2021-08-05
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.213 [Renovate Bot]

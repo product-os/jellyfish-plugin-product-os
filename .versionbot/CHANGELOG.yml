@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: bb038b960dc9ff51a302dc062e24b3d3a5c18439
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.5.25
+  date: 2021-08-20T03:25:53.357Z
+- commits:
     - subject: Only disable internal patch bumps
       hash: cf4f231547e2e4fc57ca07e6cf99ad8825e690a1
       body: ''

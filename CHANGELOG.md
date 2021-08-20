@@ -5,6 +5,11 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.5.22 - 2021-08-20
+
+* Update to work with latest types [Josh Bowling]
+* Remove package-lock.json [Josh Bowling]
+
 ## 2.5.21 - 2021-08-10
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.221 [Renovate Bot]

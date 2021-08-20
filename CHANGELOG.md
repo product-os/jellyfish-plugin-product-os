@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.5.24 - 2021-08-20
+
+* Only disable internal patch bumps [Josh Bowling]
+
 ## 2.5.23 - 2021-08-20
 
 * patch: Update dependency @types/jest to v27 [Renovate Bot]

@@ -1,4 +1,17 @@
 - commits:
+    - subject: Only disable internal patch bumps
+      hash: cf4f231547e2e4fc57ca07e6cf99ad8825e690a1
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.5.24
+  date: 2021-08-20T02:32:40.059Z
+- commits:
     - subject: 'patch: Update dependency @types/jest to v27'
       hash: 6aa8de89a51ebf9613fd2d15b5459945b708c29e
       body: ''

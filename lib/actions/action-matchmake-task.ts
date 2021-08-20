@@ -7,6 +7,8 @@
 import * as assert from '@balena/jellyfish-assert';
 import { getLogger } from '@balena/jellyfish-logger';
 import { ActionFile } from '@balena/jellyfish-plugin-base';
+import { JSONSchema } from '@balena/jellyfish-types';
+import { TypeContract } from '@balena/jellyfish-types/build/core';
 import get from 'lodash/get';
 import reverse from 'lodash/reverse';
 import sortBy from 'lodash/sortBy';
@@ -57,7 +59,7 @@ const handler: ActionFile['handler'] = async (
 		// Find all the agents that match the task
 		const workers = await context.query(
 			context.privilegedSession,
-			safeWorkerQuery,
+			safeWorkerQuery as JSONSchema,
 		);
 
 		// Sort the agents by the best match
@@ -79,7 +81,7 @@ const handler: ActionFile['handler'] = async (
 
 			await context.insertCard(
 				session,
-				linkTypeCard,
+				linkTypeCard as TypeContract,
 				{
 					timestamp: request.timestamp,
 					actor: request.actor,

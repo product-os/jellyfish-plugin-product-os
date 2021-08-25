@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.5.28 - 2021-08-25
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.5.27 - 2021-08-25
 
 * Bump jellyfish-types to v0.9.9 [Josh Bowling]

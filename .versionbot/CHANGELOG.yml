@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump jellyfish-types to v0.9.9
+      hash: 15b39eebd65fbc1595cf7283759d6c73f245b2c3
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.5.27
+  date: 2021-08-25T12:24:00.966Z
+- commits:
     - subject: 'patch: Update external-non-major'
       hash: 7de1415a3e7cc7785ba87675fcc4c174ea7822a2
       body: ''

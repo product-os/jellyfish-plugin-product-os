@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.5.33 - 2021-08-29
+
+* patch: Update dependency typedoc to ^0.21.8 [Renovate Bot]
+
 ## 2.5.32 - 2021-08-29
 
 * patch: Update dependency @balena/jellyfish-core to ^5.2.0 [Renovate Bot]

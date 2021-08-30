@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.5.34 - 2021-08-30
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.5.33 - 2021-08-29
 
 * patch: Update dependency typedoc to ^0.21.8 [Renovate Bot]

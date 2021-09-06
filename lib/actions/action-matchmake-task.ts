@@ -22,7 +22,7 @@ const handler: ActionFile['handler'] = async (
 	card,
 	request,
 ) => {
-	const typeCard = await context.getCardBySlug(session, card.type);
+	const typeCard = context.cards[card.type];
 
 	assert.USER(
 		request.context,
@@ -31,101 +31,104 @@ const handler: ActionFile['handler'] = async (
 		`No such type: ${card.type}`,
 	);
 
+	const result = {
+		id: card.id,
+		type: card.type,
+		version: card.version,
+		slug: card.slug,
+	};
+
 	const matcher = get(card, ['data', 'workerFilter', 'schema']);
 
-	if (matcher) {
-		// the privileged session would allow querying for deleted contracts and
-		// we currently have no worker cleanup implemented
-		const workerMaxAge = 10 * 60 * 1000;
-		const safeWorkerQuery = skhema.merge([
-			matcher,
-			{
-				type: 'object',
-				required: ['active', 'updated_at'],
-				properties: {
-					active: {
-						const: true,
-					},
-					updated_at: {
-						type: 'string',
-						format: 'date-time',
-						formatMinimum: new Date(
-							new Date().getTime() - workerMaxAge,
-						).toISOString(),
-					},
-				},
-			},
-		]);
-		// Find all the agents that match the task
-		const workers = await context.query(
-			context.privilegedSession,
-			safeWorkerQuery as JSONSchema,
-		);
-
-		// Sort the agents by the best match
-		const [bestMatchedWorker] = reverse(
-			sortBy(workers, (item) => {
-				return skhema.scoreMatch(safeWorkerQuery, item);
-			}),
-		);
-
-		// Assign the task to the agent
-		if (bestMatchedWorker) {
-			const linkTypeCard = await context.getCardBySlug(session, 'link@1.0.0');
-			assert.INTERNAL(
-				request.context,
-				linkTypeCard,
-				context.errors.WorkerNoElement,
-				'No such type: link',
-			);
-
-			await context.insertCard(
-				session,
-				linkTypeCard as TypeContract,
-				{
-					timestamp: request.timestamp,
-					actor: request.actor,
-					originator: request.originator,
-					attachEvents: true,
-				},
-				{
-					slug: await context.getEventSlug('link'),
-					type: 'link@1.0.0',
-					name: 'owns',
-					data: {
-						inverseName: 'is owned by',
-						from: {
-							id: bestMatchedWorker.id,
-							type: bestMatchedWorker.type,
-						},
-						to: {
-							id: card.id,
-							type: card.type,
-						},
-					},
-				},
-			);
-		} else {
-			logger.info(
-				request.context,
-				'Could not find a matching worker for task',
-				{
-					id: card.id,
-					slug: card.slug,
-					type: card.type,
-				},
-			);
-		}
+	if (!matcher) {
+		logger.warn(request.context, 'Task has no worker filter', {
+			id: card.id,
+			slug: card.slug,
+			type: card.type,
+		});
+		return result;
 	}
 
-	const result = card;
+	// the privileged session would allow querying for deleted contracts and
+	// we currently have no worker cleanup implemented
+	const workerMaxAge = 10 * 60 * 1000;
+	const safeWorkerQuery = skhema.merge([
+		matcher,
+		{
+			type: 'object',
+			required: ['active', 'updated_at'],
+			properties: {
+				active: {
+					const: true,
+				},
+				updated_at: {
+					type: 'string',
+					format: 'date-time',
+					formatMinimum: new Date(
+						new Date().getTime() - workerMaxAge,
+					).toISOString(),
+				},
+			},
+		},
+	]);
+	// Find all the agents that match the task
+	const workers = await context.query(
+		context.privilegedSession,
+		safeWorkerQuery as JSONSchema,
+	);
 
-	return {
-		id: result.id,
-		type: result.type,
-		version: result.version,
-		slug: result.slug,
-	};
+	// Sort the agents by the best match
+	const [bestMatchedWorker] = reverse(
+		sortBy(workers, (item) => {
+			return skhema.scoreMatch(safeWorkerQuery, item);
+		}),
+	);
+
+	if (!bestMatchedWorker) {
+		logger.warn(request.context, 'Could not find a matching worker for task', {
+			id: card.id,
+			slug: card.slug,
+			type: card.type,
+		});
+		return result;
+	}
+	// Assign the task to the agent
+	const linkTypeCard = context.cards['link@1.0.0'];
+	assert.INTERNAL(
+		request.context,
+		linkTypeCard,
+		context.errors.WorkerNoElement,
+		'No such type: link',
+	);
+
+	await context.insertCard(
+		session,
+		linkTypeCard as TypeContract,
+		{
+			timestamp: request.timestamp,
+			actor: request.actor,
+			originator: request.originator,
+			attachEvents: true,
+		},
+		{
+			slug: await context.getEventSlug('link'),
+			type: 'link@1.0.0',
+			name: 'owns',
+			data: {
+				inverseName: 'is owned by',
+				from: {
+					id: bestMatchedWorker.id,
+					type: bestMatchedWorker.type,
+				},
+				to: {
+					id: card.id,
+					type: card.type,
+				},
+			},
+		},
+	);
+
+	return result;
 };
 
 export const actionMatchMakeTask: ActionFile = {

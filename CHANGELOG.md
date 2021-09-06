@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.6.1 - 2021-09-06
+
+* patch: Update dependency @balena/jellyfish-core to ^5.7.0 [Renovate Bot]
+
 ## 2.6.0 - 2021-09-06
 
 * change task trigger to use created link [Martin Rauscher]

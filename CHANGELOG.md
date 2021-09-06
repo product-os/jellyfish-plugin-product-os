@@ -5,6 +5,11 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.6.0 - 2021-09-06
+
+* change task trigger to use created link [Martin Rauscher]
+* task worker filter defaults to any [Martin Rauscher]
+
 ## 2.5.43 - 2021-09-05
 
 * patch: Update dependency @balena/jellyfish-types to ^1.1.0 [Renovate Bot]

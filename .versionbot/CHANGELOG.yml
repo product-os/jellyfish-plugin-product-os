@@ -1,4 +1,28 @@
 - commits:
+    - subject: change task trigger to use created link
+      hash: 43690d44a4bff39bdf2084f3e430590f785bb282
+      body: |
+        this ensures slug/id actually exists
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+    - subject: task worker filter defaults to any
+      hash: 8e4ef633aa118e853013a88d4621f69893d2d863
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 2.6.0
+  date: 2021-09-06T15:28:00.704Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.1.0'
       hash: 6d19481e293bf93e0c5ba654d383b8ccd847bc04
       body: |

@@ -16,6 +16,26 @@ import skhema from 'skhema';
 
 const logger = getLogger(__filename);
 
+const defaultWorkerFilter = {
+	type: 'object',
+	required: ['type'],
+	properties: {
+		type: {
+			const: 'transformer-worker@1.0.0',
+		},
+		data: {
+			type: 'object',
+			properties: {
+				canary: {
+					not: {
+						const: true,
+					},
+				},
+			},
+		},
+	},
+};
+
 const handler: ActionFile['handler'] = async (
 	session,
 	context,
@@ -38,7 +58,7 @@ const handler: ActionFile['handler'] = async (
 		slug: card.slug,
 	};
 
-	const matcher = get(card, ['data', 'workerFilter', 'schema']);
+	let matcher = get(card, ['data', 'workerFilter', 'schema']);
 
 	if (!matcher) {
 		logger.warn(request.context, 'Task has no worker filter', {
@@ -46,7 +66,7 @@ const handler: ActionFile['handler'] = async (
 			slug: card.slug,
 			type: card.type,
 		});
-		return result;
+		matcher = defaultWorkerFilter;
 	}
 
 	// the privileged session would allow querying for deleted contracts and

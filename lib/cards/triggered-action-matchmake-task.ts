@@ -44,11 +44,23 @@ export const triggeredActionMatchmakeTask: ContractDefinition = {
 					},
 				},
 			},
+			$$links: {
+				'is attached to': {
+					type: 'object',
+					properties: {
+						id: {
+							type: 'string',
+						},
+					},
+				},
+			},
 		},
 		action: 'action-matchmake-task@1.0.0',
 
 		// eslint-disable-next-line
-		target: '${source.data.payload.slug}@1.0.0',
+		target: {
+			$eval: "source.links['is attached to'][0].id",
+		},
 		arguments: {},
 	},
 };

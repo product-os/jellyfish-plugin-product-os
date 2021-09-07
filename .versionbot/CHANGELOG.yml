@@ -1,4 +1,19 @@
 - commits:
+    - subject: Move Jellyfish support threads view to this plugin
+      hash: f14c60d1081825a85ed7e3fa1f8005020bd32dd0
+      body: >
+        Moved from plugin default
+        https://github.com/product-os/jellyfish-plugin-default/blob/v20.1.0/lib/cards/balena/view-all-jellyfish-support-threads.ts
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 2.7.0
+  date: 2021-09-07T14:55:34.695Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-core to ^5.7.0'
       hash: d4c6fc9406e2a6d3239da3e3c4ff15fea5d42d1d
       body: |

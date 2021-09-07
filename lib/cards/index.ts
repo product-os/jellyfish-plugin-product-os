@@ -25,6 +25,7 @@ import { transformer } from './transformer';
 import { transformerWorker } from './transformer-worker';
 import { triggeredActionMergeDraftVersion } from './triggered-action-merge-draft-version';
 import { triggeredActionMatchmakeTask } from './triggered-action-matchmake-task';
+import { viewAllJellyfishSupportThreads } from './view-all-jellyfish-support-threads';
 import { viewAllTransformerWorkers } from './view-all-transformer-workers';
 import { viewAllTransformers } from './view-all-transformers';
 
@@ -50,6 +51,7 @@ export const cards = [
 	transformer,
 	triggeredActionMergeDraftVersion,
 	triggeredActionMatchmakeTask,
+	viewAllJellyfishSupportThreads,
 	viewAllTransformerWorkers,
 	viewAllTransformers,
 ];

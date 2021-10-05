@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-core to ^6.2.0'
+      hash: 5862cb280663adab4290b32f9062d016482d96ca
+      body: |
+        Update @balena/jellyfish-core from 6.1.1 to 6.2.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.7.27
+  date: 2021-10-05T14:33:38.452Z
+- commits:
     - subject: ensure `parentMarged` is correct during contract creation
       hash: c139dbcb79141731295116cd7a4493061b385217
       body: ''

@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.7.24 - 2021-10-05
+
+* 🔄 Synced file(s) with product-os/jellyfish-config [joshbwlng]
+
 ## 2.7.23 - 2021-10-04
 
 * patch: Update dependency typedoc to ^0.22.5 [Renovate Bot]

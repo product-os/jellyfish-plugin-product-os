@@ -1,4 +1,15 @@
 - commits:
+    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+      hash: 95d491573f1e65384e2c90748855e7c7ffb777b3
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 2.7.24
+  date: 2021-10-05T00:02:38.391Z
+- commits:
     - subject: 'patch: Update dependency typedoc to ^0.22.5'
       hash: 3cbb4bb72f272f2e3baa3d8c5e2aa852fa3479b4
       body: ''

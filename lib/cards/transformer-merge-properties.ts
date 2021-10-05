@@ -11,7 +11,7 @@ export const mergeProperties = {
 	// used to enforce triggered action re-creation after bug-fixes in the formula engine
 	formulaVersion: {
 		type: 'number',
-		$$formula: '1',
+		$$formula: '2',
 		readOnly: true,
 		default: 0,
 	},
@@ -21,7 +21,7 @@ export const mergeProperties = {
 		description: 'parent contract was already merged',
 		type: 'boolean',
 		$$formula:
-			'EVERY(contract.links["was built from"], "data.$transformer.merged") === true',
+			'contract.links["was built from"].length > 0 && EVERY(contract.links["was built from"], "data.$transformer.merged") === true',
 		readOnly: true,
 		default: false,
 	},

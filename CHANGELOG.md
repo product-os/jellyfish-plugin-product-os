@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.7.26 - 2021-10-05
+
+* ensure `parentMarged` is correct during contract creation [Martin Rauscher]
+
 ## 2.7.25 - 2021-10-05
 
 * patch: Update internal-patch [Renovate Bot]

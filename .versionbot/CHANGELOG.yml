@@ -1,4 +1,17 @@
 - commits:
+    - subject: ensure `parentMarged` is correct during contract creation
+      hash: c139dbcb79141731295116cd7a4493061b385217
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 2.7.26
+  date: 2021-10-05T10:59:37.440Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: bde6522eff373994707c79b0d33b9974c423d0b1
       body: ''

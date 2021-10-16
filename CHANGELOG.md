@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.7.38 - 2021-10-16
+
+* patch: Update dependency ts-jest to ^27.0.7 [Renovate Bot]
+
 ## 2.7.37 - 2021-10-16
 
 * patch: Update external-non-major [Renovate Bot]

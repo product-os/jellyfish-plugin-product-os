@@ -49,7 +49,7 @@ export const transformer: ContractDefinition = {
 							type: 'object',
 						},
 					},
-					required: ['requirements', 'inputFilter', 'workerFilter'],
+					required: ['inputFilter'],
 				},
 			},
 			required: ['data'],

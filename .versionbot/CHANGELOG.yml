@@ -1,4 +1,17 @@
 - commits:
+    - subject: allow transformers without explicit worker filter and requirements
+      hash: bc4250899b154b0117ff18795cb073ad547c3c84
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 2.7.51
+  date: 2021-10-26T15:29:58.343Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: a21c78b979b7d8aea20bc4a5331a77f4c38c6d42
       body: ''

@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 9b29a4dc80b163390d993b66b7b8d261c0eaedb2
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.7.52
+  date: 2021-10-28T02:34:47.867Z
+- commits:
     - subject: allow transformers without explicit worker filter and requirements
       hash: bc4250899b154b0117ff18795cb073ad547c3c84
       body: ''

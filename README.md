@@ -7,7 +7,7 @@ loops and transformers.
 
 Below is an example how to use this library:
 
-```js
+```typescript
 import { cardMixins } from '@balena/jellyfish-core';
 import ProductOSPlugin from '@balena/jellyfish-plugin-product-os';
 

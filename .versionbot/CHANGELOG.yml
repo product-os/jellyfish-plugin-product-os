@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update example usage in readme
+      hash: a88b5d0778fc6e63ec24685d25eede111ed20e96
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.7.68
+  date: 2021-11-11T06:28:49.736Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.106'
       hash: 97c467fba692d20edcf280c2ded3d6b71b8a62a5
       body: ''

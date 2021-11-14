@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.7.77 - 2021-11-14
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.7.76 - 2021-11-14
 
 * patch: Update dependency @balena/jellyfish-assert to ^1.1.74 [Renovate Bot]

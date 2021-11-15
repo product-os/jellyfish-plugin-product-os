@@ -22,6 +22,8 @@ import { transformerWorker } from './transformer-worker';
 import { triggeredActionMatchmakeTask } from './triggered-action-matchmake-task';
 import { viewAllTransformerWorkers } from './view-all-transformer-workers';
 import { viewAllTransformers } from './view-all-transformers';
+import { nodeModuleSource } from './node-module-source';
+import { nodeServiceSource } from './node-service-source';
 
 export const cards = [
 	balenaBuild,
@@ -32,6 +34,8 @@ export const cards = [
 	image,
 	imageSource,
 	loopProductOs,
+	nodeModuleSource,
+	nodeServiceSource,
 	roleLoop,
 	roleTransformerWorker,
 	task,

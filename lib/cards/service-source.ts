@@ -26,7 +26,17 @@ export const serviceSource: ContractDefinition = {
 								mergeable: {
 									description: 'all platforms have an image',
 									type: 'boolean',
-									$$formula: 'EVERY(VALUES(contract.data.platforms), "image")',
+									$$formula: `
+									EVERY(VALUES(contract.data.platforms), "image") &&
+									contract.data.$transformer.backflow &&
+									contract.data.$transformer.backflow.filter(
+										function(b){
+											return b &&
+														 b.type.startsWith("t-product-os-test-run") &&
+														 b.data.data.success
+										}
+										).length > 0
+									`,
 									readOnly: true,
 									default: false,
 								},

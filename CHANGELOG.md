@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.7.89 - 2021-11-16
+
+* Set license [Josh Bowling]
+
 ## 2.7.88 - 2021-11-16
 
 * patch: Update dependency @balena/jellyfish-logger to ^3.0.121 [Renovate Bot]

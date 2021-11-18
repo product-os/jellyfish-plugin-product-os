@@ -36,7 +36,11 @@ export const triggeredActionMergeDraftVersion: ContractDefinition<TriggeredActio
 									'finalVersion',
 								],
 								properties: {
-									// consider if we also should check artifactReady or if this is type specific
+									artifactReady: {
+										not: {
+											const: false,
+										},
+									},
 									mergeable: {
 										type: 'boolean',
 										const: true,

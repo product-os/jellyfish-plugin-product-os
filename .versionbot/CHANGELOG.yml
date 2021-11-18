@@ -1,4 +1,17 @@
 - commits:
+    - subject: don't merge non-ready contracts
+      hash: c412066b837579611388f40c53590686adf5e12d
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 2.7.92
+  date: 2021-11-18T20:03:09.302Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.285'
       hash: 3d5446639c2cf5f300f7ddb35a95927e1d19220c
       body: ''

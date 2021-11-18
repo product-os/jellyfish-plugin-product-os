@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.7.92 - 2021-11-18
+
+* don't merge non-ready contracts [Martin Rauscher]
+
 ## 2.7.91 - 2021-11-16
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.285 [Renovate Bot]

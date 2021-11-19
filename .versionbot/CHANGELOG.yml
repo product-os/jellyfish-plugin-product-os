@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-core to ^8.1.0'
+      hash: 39aad86dc6ea95ace0152845f21e7fc2ab495ccc
+      body: |
+        Update @balena/jellyfish-core from 8.0.0 to 8.1.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.7.94
+  date: 2021-11-19T21:46:10.210Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.125'
       hash: e417f6e5788f8ff3690dbbfa3681bd9c494fadb7
       body: ''

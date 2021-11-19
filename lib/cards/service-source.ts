@@ -32,7 +32,7 @@ export const serviceSource: ContractDefinition = {
 									contract.data.$transformer.backflow.filter(
 										function(b){
 											return b &&
-														 b.type.startsWith("t-product-os-test-run") &&
+														 b.type.startsWith("type-product-os-t-test-run@") &&
 														 b.data.data.success
 										}
 										).length > 0

@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.7.93 - 2021-11-19
+
+* patch: Update dependency @balena/jellyfish-logger to ^3.0.125 [Renovate Bot]
+
 ## 2.7.92 - 2021-11-18
 
 * don't merge non-ready contracts [Martin Rauscher]

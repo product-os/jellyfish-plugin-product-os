@@ -1,4 +1,15 @@
 - commits:
+    - subject: Fix using known working formula
+      hash: ebac7f72c67f5604323637d3052ae1fc289eb15d
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Dan Goodman
+      nested: []
+  version: 2.7.94
+  date: 2021-11-19T12:37:17.378Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.125'
       hash: e417f6e5788f8ff3690dbbfa3681bd9c494fadb7
       body: ''

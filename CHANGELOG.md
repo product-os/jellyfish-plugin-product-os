@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.7.97 - 2021-11-21
+
+* Remove license headers [Josh Bowling]
+
 ## 2.7.96 - 2021-11-20
 
 * patch: Update dependency @balena/jellyfish-logger to ^3.0.127 [Renovate Bot]

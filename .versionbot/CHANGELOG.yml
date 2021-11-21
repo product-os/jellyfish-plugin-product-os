@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 4dbde35a40f705f6a9f034ce9a666fd8d39a3cd5
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.7.98
+  date: 2021-11-21T14:49:44.397Z
+- commits:
     - subject: Remove license headers
       hash: 9cf50c0c69b5e1dee97bc35d6f103e4d82302b70
       body: ''

@@ -1,9 +1,3 @@
-/*
- * Copyright (C) Balena.io - All Rights Reserved
- * Unauthorized copying of this file, via any medium is strictly prohibited.
- * Proprietary and confidential.
- */
-
 import { balenaBuild } from './balena-build';
 import { balenaRelease } from './balena-release';
 import { balenaSource } from './balena-source';

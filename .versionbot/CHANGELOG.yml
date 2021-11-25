@@ -1,4 +1,27 @@
 - commits:
+    - subject: add minimal requirements to task contract
+      hash: 3ea1d1ce90b54f9a8cacbe49e5b3e52fc2000a2d
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+    - subject: remove obsolete type contracts
+      hash: ecfac4849949c8549f0808b58d03d21a0a61f0e4
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 2.8.0
+  date: 2021-11-25T14:08:08.475Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.300'
       hash: 1838b2b9ced9d2222fd644ae2113435fcf030917
       body: ''

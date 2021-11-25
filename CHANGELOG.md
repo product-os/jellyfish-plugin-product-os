@@ -5,6 +5,11 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.8.0 - 2021-11-25
+
+* add minimal requirements to task contract [Martin Rauscher]
+* remove obsolete type contracts [Martin Rauscher]
+
 ## 2.7.113 - 2021-11-25
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.300 [Renovate Bot]

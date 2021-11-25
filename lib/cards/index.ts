@@ -1,6 +1,3 @@
-import { balenaBuild } from './balena-build';
-import { balenaRelease } from './balena-release';
-import { balenaSource } from './balena-source';
 import { contractRepository } from './contract-repository';
 import { genericSource } from './generic-source';
 import { image } from './image';
@@ -12,7 +9,6 @@ import { loopProductOs } from './loop-product-os';
 import { loopTeamOs } from './loop-team-os';
 import { roleLoop } from './role-loop';
 import { roleTransformerWorker } from './role-transformer-worker';
-import { service } from './service';
 import { serviceSource } from './service-source';
 import { task } from './task';
 import { transformer } from './transformer';
@@ -24,9 +20,6 @@ import { viewAllTransformerWorkers } from './view-all-transformer-workers';
 import { viewAllTransformers } from './view-all-transformers';
 
 export const cards = [
-	balenaBuild,
-	balenaRelease,
-	balenaSource,
 	contractRepository,
 	genericSource,
 	image,
@@ -39,7 +32,6 @@ export const cards = [
 	roleLoop,
 	roleTransformerWorker,
 	task,
-	service,
 	serviceSource,
 	transformerWorker,
 	transformer,

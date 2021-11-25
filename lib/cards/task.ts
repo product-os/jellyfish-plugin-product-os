@@ -7,7 +7,39 @@ export const task: ContractDefinition = {
 	data: {
 		schema: {
 			type: 'object',
-			properties: {},
+			required: ['data'],
+			properties: {
+				data: {
+					type: 'object',
+					required: ['actor', 'input', 'status', 'transformer'],
+					properties: {
+						actor: {
+							type: 'string',
+						},
+						input: {
+							type: 'object',
+							required: ['id'],
+							properties: {
+								id: {
+									type: 'string',
+								},
+							},
+						},
+						status: {
+							type: 'string',
+						},
+						transformer: {
+							type: 'object',
+							required: ['id'],
+							properties: {
+								id: {
+									type: 'string',
+								},
+							},
+						},
+					},
+				},
+			},
 		},
 	},
 };

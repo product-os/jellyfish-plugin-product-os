@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.7.112 - 2021-11-25
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.7.111 - 2021-11-25
 
 * Remove jellycheck [Josh Bowling]

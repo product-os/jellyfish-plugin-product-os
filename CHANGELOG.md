@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.8.2 - 2021-11-26
+
+* Use product-os/renovate-config [Josh Bowling]
+
 ## 2.8.1 - 2021-11-25
 
 * patch: Update dependency typescript to ^4.5.2 [Renovate Bot]

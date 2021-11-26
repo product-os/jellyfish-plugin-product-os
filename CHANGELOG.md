@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.8.1 - 2021-11-25
+
+* patch: Update dependency typescript to ^4.5.2 [Renovate Bot]
+
 ## 2.8.0 - 2021-11-25
 
 * add minimal requirements to task contract [Martin Rauscher]

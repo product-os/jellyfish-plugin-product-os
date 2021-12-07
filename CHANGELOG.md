@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.9.0 - 2021-12-07
+
+* add types view [Martin Rauscher]
+
 ## 2.8.28 - 2021-12-07
 
 * patch: Update internal-patch [Renovate Bot]

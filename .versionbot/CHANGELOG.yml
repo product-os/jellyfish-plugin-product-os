@@ -1,4 +1,17 @@
 - commits:
+    - subject: add types view
+      hash: 37bd73d8223aba7c388a6e7a8c2698d2bdc86748
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 2.9.0
+  date: 2021-12-07T11:26:43.005Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 173152e61e21a6d21737327dd8def134721ab59c
       body: ''

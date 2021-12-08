@@ -1,6 +1,6 @@
 import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
 
-export const viewAllTransformers: ContractDefinition = {
+export const viewAllTransformerTypes: ContractDefinition = {
 	slug: 'view-all-transformer-types',
 	name: 'All transformers',
 	type: 'view@1.0.0',

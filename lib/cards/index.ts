@@ -18,6 +18,7 @@ import { triggeredActionMatchmakeTask } from './triggered-action-matchmake-task'
 import { viewAllJellyfishSupportThreads } from './view-all-jellyfish-support-threads';
 import { viewAllTransformerWorkers } from './view-all-transformer-workers';
 import { viewAllTransformers } from './view-all-transformers';
+import { viewAllTransformerTypes } from './view-all-types';
 
 export const cards = [
 	contractRepository,
@@ -40,4 +41,5 @@ export const cards = [
 	viewAllJellyfishSupportThreads,
 	viewAllTransformerWorkers,
 	viewAllTransformers,
+	viewAllTransformerTypes,
 ];

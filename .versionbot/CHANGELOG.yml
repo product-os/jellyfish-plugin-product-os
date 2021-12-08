@@ -1,4 +1,17 @@
 - commits:
+    - subject: add missing index entry for types view
+      hash: 08446a2f12881f1a0c102484ae6db3e8030a3570
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 2.9.1
+  date: 2021-12-08T10:40:41.322Z
+- commits:
     - subject: add types view
       hash: 37bd73d8223aba7c388a6e7a8c2698d2bdc86748
       body: ''

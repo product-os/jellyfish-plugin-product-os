@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.9.1 - 2021-12-08
+
+* add missing index entry for types view [Martin Rauscher]
+
 ## 2.9.0 - 2021-12-07
 
 * add types view [Martin Rauscher]

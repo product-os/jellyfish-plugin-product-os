@@ -5,6 +5,11 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.9.3 - 2021-12-10
+
+* patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.321 [Renovate Bot]
+* patch: Update dependency typescript to ^4.5.3 [Renovate Bot]
+
 ## 2.9.2 - 2021-12-08
 
 * fix types view name [Martin Rauscher]

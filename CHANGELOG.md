@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.9.5 - 2021-12-11
+
+* Bump internal dependencies [Josh Bowling]
+
 ## 2.9.4 - 2021-12-11
 
 * patch: Update external-non-major [Renovate Bot]

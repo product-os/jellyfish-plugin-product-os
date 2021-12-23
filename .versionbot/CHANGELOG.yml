@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove dev-only peer dependency
+      hash: 138d34ee7c0197173e67725d22ad7e5d7bc502f9
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Carol Schulze <carol@balena.io>
+        signed-off-by: Carol Schulze <carol@balena.io>
+      author: Carol Schulze
+      nested: []
+  version: 2.9.24
+  date: 2021-12-23T20:55:36.750Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.2.7'
       hash: c0e99d79b5656ccea3fc0eaf1a88670943e83fb5
       body: ''

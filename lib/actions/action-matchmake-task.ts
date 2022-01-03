@@ -1,7 +1,7 @@
 import * as assert from '@balena/jellyfish-assert';
 import { getLogger } from '@balena/jellyfish-logger';
 import { ActionFile } from '@balena/jellyfish-plugin-base';
-import { JSONSchema } from '@balena/jellyfish-types';
+import { JsonSchema } from '@balena/jellyfish-types';
 import { TypeContract } from '@balena/jellyfish-types/build/core';
 import get from 'lodash/get';
 import reverse from 'lodash/reverse';
@@ -88,7 +88,7 @@ const handler: ActionFile['handler'] = async (
 	// Find all the agents that match the task
 	const workers = await context.query(
 		context.privilegedSession,
-		safeWorkerQuery as JSONSchema,
+		safeWorkerQuery as JsonSchema,
 	);
 
 	// Sort the agents by the best match

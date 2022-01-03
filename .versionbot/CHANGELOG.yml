@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: e3bc11808d338fdb273a631624b150a6a634028e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.9.39
+  date: 2022-01-03T12:30:31.990Z
+- commits:
     - subject: Update JsonSchema type import
       hash: f3d7f371af17a0e6a9a4346a4245f797636bbdaa
       body: ''

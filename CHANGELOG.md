@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.9.39 - 2022-01-03
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.9.38 - 2022-01-03
 
 * Update JsonSchema type import [Josh Bowling]

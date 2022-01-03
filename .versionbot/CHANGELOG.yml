@@ -1,4 +1,26 @@
 - commits:
+    - subject: Update JsonSchema type import
+      hash: f3d7f371af17a0e6a9a4346a4245f797636bbdaa
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: 'patch: Update dependency @balena/jellyfish-types to v2'
+      hash: d06b4993c7abb7ad551081370ac13449b9c68626
+      body: |
+        Update @balena/jellyfish-types from 1.2.39 to 2.0.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.9.38
+  date: 2022-01-03T03:04:30.808Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: ee1cce81e3d2d316224a905f6ede4d7372dcc2aa
       body: ''

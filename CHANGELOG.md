@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.9.35 - 2022-01-02
+
+* patch: Update dependency @balena/jellyfish-core to v11 [Renovate Bot]
+
 ## 2.9.34 - 2022-01-01
 
 * patch: Update dependency @types/jest to ^27.4.0 [Renovate Bot]

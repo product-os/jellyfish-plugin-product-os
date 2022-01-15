@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.9.49 - 2022-01-15
+
+* patch: Update dependency ts-jest to ^27.1.3 [Renovate Bot]
+
 ## 2.9.48 - 2022-01-15
 
 * patch: Update internal-patch [Renovate Bot]

@@ -48,7 +48,7 @@
     "@balena/jellyfish-logger": "^4.0.16",
     "@balena/jellyfish-plugin-base": "^2.2.24",
     "lodash": "^4.17.21",
-    "skhema": "^5.3.4"
+    "skhema": "^6.0.2"
   },
   "devDependencies": {
     "@balena/jellyfish-config": "^2.0.2",

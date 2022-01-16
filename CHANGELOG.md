@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.9.51 - 2022-01-16
+
+* patch: Update dependency skhema to v6 [Renovate Bot]
+
 ## 2.9.50 - 2022-01-16
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.2.24 [Renovate Bot]

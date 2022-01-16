@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency skhema to v6'
+      hash: 6218d3a0406226864f0f120e330e05add4034050
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.9.51
+  date: 2022-01-16T08:03:07.302Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.2.24'
       hash: c4dd5aa7e0bcab1a0ce86a058fa7616029c7c8ad
       body: ''

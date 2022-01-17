@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-core to ^12.2.0'
+      hash: c9ea75c0679a9a3ddb5bfca4348796fbea874bd9
+      body: |
+        Update @balena/jellyfish-core from 12.1.0 to 12.2.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.9.52
+  date: 2022-01-17T15:29:53.310Z
+- commits:
     - subject: 'patch: Update dependency skhema to v6'
       hash: 6218d3a0406226864f0f120e330e05add4034050
       body: ''

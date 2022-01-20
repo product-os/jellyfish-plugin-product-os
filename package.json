@@ -1,7 +1,7 @@
 {
   "name": "@balena/jellyfish-plugin-product-os",
   "description": "Product OS Jellyfish Plugin",
-  "version": "2.9.56",
+  "version": "2.9.57",
   "repository": {
     "type": "git",
     "url": "https://github.com/product-os/jellyfish-plugin-product-os.git"
@@ -68,6 +68,6 @@
     "pre-commit": "npx lint-staged"
   },
   "versionist": {
-    "publishedAt": "2022-01-19T14:07:11.997Z"
+    "publishedAt": "2022-01-20T10:13:02.395Z"
   }
 }

@@ -8,6 +8,7 @@ import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
  */
 export const contractRepository: ContractDefinition = {
 	slug: 'contract-repository',
+	version: '1.0.0',
 	name: 'Repository',
 	type: 'type@1.0.0',
 	data: {

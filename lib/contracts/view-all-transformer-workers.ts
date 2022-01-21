@@ -2,6 +2,7 @@ import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
 
 export const viewAllTransformerWorkers: ContractDefinition = {
 	slug: 'view-all-transformer-workers',
+	version: '1.0.0',
 	name: 'Workers',
 	type: 'view@1.0.0',
 	markers: ['org-balena'],

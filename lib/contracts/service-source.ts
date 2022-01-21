@@ -1,14 +1,15 @@
 import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
 import { mergeProperties } from './transformer-merge-properties';
 
-export const imageSource: ContractDefinition = {
-	slug: 'image-source',
-	name: 'Image source contract',
+export const serviceSource: ContractDefinition = {
+	slug: 'service-source',
+	version: '1.0.0',
+	name: 'Source bundle for a service',
 	type: 'type@1.0.0',
-	markers: [],
 	data: {
 		schema: {
 			type: 'object',
+			required: ['data'],
 			properties: {
 				data: {
 					type: 'object',
@@ -17,12 +18,18 @@ export const imageSource: ContractDefinition = {
 							type: 'object',
 							properties: {
 								...mergeProperties,
+								mergeable: {
+									description: 'all platforms have an image',
+									type: 'boolean',
+									$$formula: 'EVERY(VALUES(contract.data.platforms), "image")',
+									readOnly: true,
+									default: false,
+								},
 							},
 						},
 					},
 				},
 			},
-			required: ['data'],
 		},
 	},
 };

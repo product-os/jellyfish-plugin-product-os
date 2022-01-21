@@ -1,5 +1,4 @@
-import { ActionFile } from '@balena/jellyfish-plugin-base';
-import { ContractData } from '@balena/jellyfish-types/build/core';
+import { ActionDefinition } from '@balena/jellyfish-worker';
 import { actionMatchMakeTask } from './action-matchmake-task';
 
-export const actions: Array<ActionFile<ContractData>> = [actionMatchMakeTask];
+export const actions: ActionDefinition[] = [actionMatchMakeTask];

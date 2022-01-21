@@ -1,12 +1,13 @@
 import * as assert from '@balena/jellyfish-assert';
 import { getLogger } from '@balena/jellyfish-logger';
-import { ActionFile } from '@balena/jellyfish-plugin-base';
-import { JsonSchema } from '@balena/jellyfish-types';
-import { TypeContract } from '@balena/jellyfish-types/build/core';
-import get from 'lodash/get';
-import reverse from 'lodash/reverse';
-import sortBy from 'lodash/sortBy';
-import skhema from 'skhema';
+import type { JsonSchema } from '@balena/jellyfish-types';
+import type { TypeContract } from '@balena/jellyfish-types/build/core';
+import {
+	ActionDefinition,
+	errors as workerErrors,
+} from '@balena/jellyfish-worker';
+import * as _ from 'lodash';
+import * as skhema from 'skhema';
 
 const logger = getLogger(__filename);
 
@@ -30,7 +31,7 @@ const defaultWorkerFilter = {
 	},
 };
 
-const handler: ActionFile['handler'] = async (
+const handler: ActionDefinition['handler'] = async (
 	session,
 	context,
 	card,
@@ -39,9 +40,9 @@ const handler: ActionFile['handler'] = async (
 	const typeCard = context.cards[card.type];
 
 	assert.USER(
-		request.context,
+		request.logContext,
 		typeCard,
-		context.errors.WorkerNoElement,
+		workerErrors.WorkerNoElement,
 		`No such type: ${card.type}`,
 	);
 
@@ -52,10 +53,10 @@ const handler: ActionFile['handler'] = async (
 		slug: card.slug,
 	};
 
-	let matcher = get(card, ['data', 'workerFilter', 'schema']);
+	let matcher = _.get(card, ['data', 'workerFilter', 'schema']);
 
 	if (!matcher) {
-		logger.warn(request.context, 'Task has no worker filter', {
+		logger.warn(request.logContext, 'Task has no worker filter', {
 			id: card.id,
 			slug: card.slug,
 			type: card.type,
@@ -92,26 +93,30 @@ const handler: ActionFile['handler'] = async (
 	);
 
 	// Sort the agents by the best match
-	const [bestMatchedWorker] = reverse(
-		sortBy(workers, (item) => {
+	const [bestMatchedWorker] = _.reverse(
+		_.sortBy(workers, (item) => {
 			return skhema.scoreMatch(safeWorkerQuery, item);
 		}),
 	);
 
 	if (!bestMatchedWorker) {
-		logger.warn(request.context, 'Could not find a matching worker for task', {
-			id: card.id,
-			slug: card.slug,
-			type: card.type,
-		});
+		logger.warn(
+			request.logContext,
+			'Could not find a matching worker for task',
+			{
+				id: card.id,
+				slug: card.slug,
+				type: card.type,
+			},
+		);
 		return result;
 	}
 	// Assign the task to the agent
 	const linkTypeCard = context.cards['link@1.0.0'];
 	assert.INTERNAL(
-		request.context,
+		request.logContext,
 		linkTypeCard,
-		context.errors.WorkerNoElement,
+		workerErrors.WorkerNoElement,
 		'No such type: link',
 	);
 
@@ -145,10 +150,11 @@ const handler: ActionFile['handler'] = async (
 	return result;
 };
 
-export const actionMatchMakeTask: ActionFile = {
+export const actionMatchMakeTask: ActionDefinition = {
 	handler,
-	card: {
+	contract: {
 		slug: 'action-matchmake-task',
+		version: '1.0.0',
 		type: 'action@1.0.0',
 		name: 'Matchmake task to agent',
 		data: {

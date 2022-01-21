@@ -3,6 +3,7 @@ import { mergeProperties } from './transformer-merge-properties';
 
 export const transformer: ContractDefinition = {
 	slug: 'transformer',
+	version: '1.0.0',
 	name: 'Transformer',
 	type: 'type@1.0.0',
 	markers: [],

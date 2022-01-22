@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 2.9.58 - 2022-01-22
+
+* patch: Update external-non-major [Renovate Bot]
+
 ## 2.9.57 - 2022-01-20
 
 * patch: Update dependency @balena/jellyfish-core to v14 [Renovate Bot]

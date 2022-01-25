@@ -1,3 +1,7 @@
+import {
+	ContractData,
+	ContractDefinition,
+} from '@balena/jellyfish-types/build/core';
 import { contractRepository } from './contract-repository';
 import { genericSource } from './generic-source';
 import { image } from './image';
@@ -20,7 +24,7 @@ import { viewAllTransformerWorkers } from './view-all-transformer-workers';
 import { viewAllTransformers } from './view-all-transformers';
 import { viewAllTransformerTypes } from './view-all-types';
 
-export const cards = [
+export const contracts: Array<ContractDefinition<ContractData>> = [
 	contractRepository,
 	genericSource,
 	image,

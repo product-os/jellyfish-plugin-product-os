@@ -1,8 +1,9 @@
 import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
 
-export const loopTeamOs: ContractDefinition = {
-	slug: 'loop-team-os',
-	name: 'team-os',
+export const loopBalenalabs: ContractDefinition = {
+	slug: 'loop-balenalabs',
+	version: '1.0.0',
+	name: 'balenalabs',
 	type: 'loop@1.0.0',
 	data: {
 		roles: ['loop'],

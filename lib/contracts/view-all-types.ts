@@ -4,6 +4,7 @@ export const viewAllTransformerTypes: ContractDefinition = {
 	slug: 'view-all-transformer-types',
 	name: 'All Types',
 	type: 'view@1.0.0',
+	version: '1.0.0',
 	markers: ['org-balena'],
 	data: {
 		namespace: 'Transformers',

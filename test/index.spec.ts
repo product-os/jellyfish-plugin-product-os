@@ -1,21 +1,17 @@
-import isEmpty from 'lodash/isEmpty';
-import { cardMixins as coreMixins } from '@balena/jellyfish-core';
-import { ProductOsPlugin } from '../lib/index';
+import { PluginManager } from '@balena/jellyfish-worker';
+import * as _ from 'lodash';
+import { productOsPlugin } from '../lib/index';
 
-const context = {
-	id: 'jellyfish-plugin-product-os-test',
-};
+const pluginManager = new PluginManager([productOsPlugin()]);
 
-const plugin = new ProductOsPlugin();
+test('Plugin returns collection of contracts', () => {
+	const cards = pluginManager.getCards();
 
-test('Plugin returns collection of cards', () => {
-	const cards = plugin.getCards(context, coreMixins);
-
-	expect(isEmpty(cards)).toBeFalsy();
+	expect(_.isEmpty(cards)).toBeFalsy();
 });
 
-test('Expected cards are loaded', () => {
-	const cards = plugin.getCards(context, coreMixins);
+test('Expected contracts are loaded', () => {
+	const cards = pluginManager.getCards();
 
 	// Sanity check
 	expect(cards.image.name).toBe('Container image contract');
@@ -23,7 +19,7 @@ test('Expected cards are loaded', () => {
 });
 
 test('Expected actions are loaded', () => {
-	const actions = plugin.getActions(context);
+	const actions = pluginManager.getActions();
 
 	// Sanity check
 	expect(typeof actions['action-matchmake-task'].handler).toBe('function');

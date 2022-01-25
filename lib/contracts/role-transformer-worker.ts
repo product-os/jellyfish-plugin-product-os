@@ -2,6 +2,7 @@ import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
 
 export const roleTransformerWorker: ContractDefinition = {
 	slug: 'role-transformer-worker',
+	version: '1.0.0',
 	name: 'Transformer worker permissions',
 	type: 'role@1.0.0',
 	markers: [],

@@ -3,6 +3,7 @@ import { mergeProperties } from './transformer-merge-properties';
 
 export const image: ContractDefinition = {
 	slug: 'image',
+	version: '1.0.0',
 	name: 'Container image contract',
 	type: 'type@1.0.0',
 	markers: [],

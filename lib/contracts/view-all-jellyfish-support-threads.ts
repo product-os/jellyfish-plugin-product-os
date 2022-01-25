@@ -2,6 +2,7 @@ import type { ViewContractDefinition } from '@balena/jellyfish-types/build/core'
 
 export const viewAllJellyfishSupportThreads: ViewContractDefinition = {
 	slug: 'view-all-jellyfish-support-threads',
+	version: '1.0.0',
 	name: 'Jellyfish threads',
 	type: 'view@1.0.0',
 	markers: ['org-balena'],

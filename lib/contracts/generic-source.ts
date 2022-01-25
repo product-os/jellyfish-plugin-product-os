@@ -3,6 +3,7 @@ import { mergeProperties } from './transformer-merge-properties';
 
 export const genericSource: ContractDefinition = {
 	slug: 'generic-source',
+	version: '1.0.0',
 	name: 'Generic source bundle',
 	type: 'type@1.0.0',
 	data: {

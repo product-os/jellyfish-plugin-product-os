@@ -2,6 +2,7 @@ import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
 
 export const triggeredActionMatchmakeTask: ContractDefinition = {
 	slug: 'triggered-action-matchmake-task',
+	version: '1.0.0',
 	type: 'triggered-action@1.0.0',
 	name: 'Triggered action for matchmaking tasks to agents',
 	markers: [],

@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 3.0.0 - 2022-01-25
+
+* Replace plugin-base with worker [Josh Bowling]
+
 ## 2.9.66 - 2022-01-24
 
 * patch: Update dependency @balena/jellyfish-logger to ^4.0.27 [Renovate Bot]

@@ -1,4 +1,17 @@
 - commits:
+    - subject: Replace plugin-base with worker
+      hash: 4a5265488154730aa6e669494ebabce72ef0dea7
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.0
+  date: 2022-01-25T01:33:46.934Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^4.0.27'
       hash: c7842b1f822759485c876b8f74447cf07d323225
       body: ''

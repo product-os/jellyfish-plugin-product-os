@@ -7,15 +7,12 @@ export * from './types';
 /**
  * The productOS Jellyfish plugin.
  */
-export const productOsPlugin = (
-	definition: Partial<PluginDefinition> = {},
-): PluginDefinition => {
+export const productOsPlugin = (): PluginDefinition => {
 	return {
 		slug: 'plugin-product-os',
 		name: 'Product-OS Plugin',
 		version: '1.0.0',
 		contracts,
 		actions,
-		...definition,
 	};
 };

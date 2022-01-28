@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 3.0.8 - 2022-01-28
+
+* Remove main plugin argument [Josh Bowling]
+
 ## 3.0.7 - 2022-01-26
 
 * Update dependencies (internal patch bumps) [Renovate Bot]

@@ -4,6 +4,9 @@ import { actions } from './actions';
 
 export * from './types';
 
+// tslint:disable-next-line: no-var-requires
+const { version } = require('../package.json');
+
 /**
  * The productOS Jellyfish plugin.
  */
@@ -11,7 +14,7 @@ export const productOsPlugin = (): PluginDefinition => {
 	return {
 		slug: 'plugin-product-os',
 		name: 'Product-OS Plugin',
-		version: '1.0.0',
+		version,
 		contracts,
 		actions,
 	};

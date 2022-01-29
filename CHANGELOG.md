@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 3.0.11 - 2022-01-29
+
+* Use package.json version as plugin version [Josh Bowling]
+
 ## 3.0.10 - 2022-01-29
 
 * Update internal-patch [Renovate Bot]

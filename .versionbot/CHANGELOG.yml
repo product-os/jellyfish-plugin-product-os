@@ -1,4 +1,18 @@
 - commits:
+    - subject: Use package.json version as plugin version
+      hash: b11b20a53def0dd265fb65480f32a289c121e98d
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.11
+  title: Use package.json version as plugin version
+  date: 2022-01-29T04:32:47.414Z
+- commits:
     - subject: Update internal-patch
       hash: fe85ecad00b7c0d3e0bc2c955e3c6a11daf53e43
       body: ""

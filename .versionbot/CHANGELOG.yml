@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update dependencies (external non-major bumps)
+      hash: 4ceb218d8fd9574d99d20bfac3c8598454b1f0a8
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.9
+  title: Update dependencies (external non-major bumps)
+  date: 2022-01-29T01:01:25.267Z
+- commits:
     - subject: Remove main plugin argument
       hash: b76b4ce9e6be58b2ee1ecc7b9630040866ec85fa
       body: ""

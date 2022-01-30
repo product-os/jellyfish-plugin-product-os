@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 3.0.12 - 2022-01-29
+
+* Update @balena/jellyfish-worker from 16.1.7 to 16.2.3 [Renovate Bot]
+
 ## 3.0.11 - 2022-01-29
 
 * Use package.json version as plugin version [Josh Bowling]

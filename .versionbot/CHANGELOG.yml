@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update to worker 18
+      hash: b88dd5bb7f63cd4c3f5fcff6aa745c33f7f489f2
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+      author: karaxuna
+      nested: []
+  version: 4.0.0
+  title: Update to worker 18
+  date: 2022-01-31T12:18:21.314Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 16.1.7 to 16.2.3
       hash: 10c1340957c27161a8e7e794fea20f0b39a244ea
       body: ""

@@ -46,7 +46,7 @@
   "dependencies": {
     "@balena/jellyfish-assert": "^1.2.12",
     "@balena/jellyfish-logger": "^4.0.29",
-    "@balena/jellyfish-worker": "^18.1.0",
+    "@balena/jellyfish-worker": "^18.2.1",
     "lodash": "^4.17.21",
     "skhema": "^6.0.2"
   },

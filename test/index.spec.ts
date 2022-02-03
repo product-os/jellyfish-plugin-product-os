@@ -1,5 +1,5 @@
 import { PluginManager } from '@balena/jellyfish-worker';
-import * as _ from 'lodash';
+import _ from 'lodash';
 import { productOsPlugin } from '../lib/index';
 
 const pluginManager = new PluginManager([productOsPlugin()]);

@@ -1,4 +1,4 @@
-import { PluginDefinition } from '@balena/jellyfish-worker';
+import type { PluginDefinition } from '@balena/jellyfish-worker';
 import { contracts } from './contracts';
 import { actions } from './actions';
 

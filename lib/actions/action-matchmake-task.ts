@@ -6,7 +6,7 @@ import {
 	ActionDefinition,
 	errors as workerErrors,
 } from '@balena/jellyfish-worker';
-import * as _ from 'lodash';
+import _ from 'lodash';
 import * as skhema from 'skhema';
 
 const logger = getLogger(__filename);

@@ -1,4 +1,4 @@
-import {
+import type {
 	ContractData,
 	ContractDefinition,
 } from '@balena/jellyfish-types/build/core';
@@ -17,12 +17,12 @@ import { serviceSource } from './service-source';
 import { task } from './task';
 import { transformer } from './transformer';
 import { transformerWorker } from './transformer-worker';
-import { triggeredActionMergeDraftVersion } from './triggered-action-merge-draft-version';
 import { triggeredActionMatchmakeTask } from './triggered-action-matchmake-task';
+import { triggeredActionMergeDraftVersion } from './triggered-action-merge-draft-version';
 import { viewAllJellyfishSupportThreads } from './view-all-jellyfish-support-threads';
-import { viewAllTransformerWorkers } from './view-all-transformer-workers';
 import { viewAllTransformers } from './view-all-transformers';
 import { viewAllTransformerTypes } from './view-all-types';
+import { viewAllTransformerWorkers } from './view-all-transformer-workers';
 
 export const contracts: Array<ContractDefinition<ContractData>> = [
 	contractRepository,
@@ -36,14 +36,14 @@ export const contracts: Array<ContractDefinition<ContractData>> = [
 	loopTeamOs,
 	roleLoop,
 	roleTransformerWorker,
-	task,
 	serviceSource,
-	transformerWorker,
+	task,
 	transformer,
-	triggeredActionMergeDraftVersion,
+	transformerWorker,
 	triggeredActionMatchmakeTask,
+	triggeredActionMergeDraftVersion,
 	viewAllJellyfishSupportThreads,
-	viewAllTransformerWorkers,
 	viewAllTransformers,
 	viewAllTransformerTypes,
+	viewAllTransformerWorkers,
 ];

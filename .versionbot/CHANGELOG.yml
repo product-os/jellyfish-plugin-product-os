@@ -1,4 +1,18 @@
 - commits:
+    - subject: Minor fixes
+      hash: bb9c41e83d259008aa2406996ba1d8ed604c7565
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Carol Schulze <carol@balena.io>
+        signed-off-by: Carol Schulze <carol@balena.io>
+      author: Carol Schulze
+      nested: []
+  version: 4.0.5
+  title: Minor fixes
+  date: 2022-02-03T12:58:24.293Z
+- commits:
     - subject: Update @balena/jellyfish-core from 14.1.0 to 14.2.0
       hash: e3a26e99bb8649086a85809070f092d6a0f8b5b7
       body: ""

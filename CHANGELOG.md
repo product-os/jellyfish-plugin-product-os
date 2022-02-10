@@ -5,6 +5,12 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 4.0.10 - 2022-02-09
+
+* Update @balena/jellyfish-core from 14.2.0 to 14.3.0 [Renovate Bot]
+* Update @balena/jellyfish-worker from 18.5.2 to 18.6.0 [Renovate Bot]
+* Update @balena/jellyfish-worker from 18.4.5 to 18.5.2 [Renovate Bot]
+
 ## 4.0.9 - 2022-02-05
 
 * Update internal-patch [Renovate Bot]

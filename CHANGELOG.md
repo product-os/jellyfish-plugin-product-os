@@ -5,6 +5,13 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 4.0.21 - 2022-02-24
+
+* Transform serialize-error [Josh Bowling]
+* Update internal-patch [Renovate Bot]
+* Update @balena/jellyfish-core from 14.4.0 to 15.0.0 [Renovate Bot]
+* Update @balena/jellyfish-worker from 18.7.0 to 18.8.0 [Renovate Bot]
+
 ## 4.0.20 - 2022-02-21
 
 * Update @balena/jellyfish-worker from 18.6.33 to 18.7.0 [Renovate Bot]

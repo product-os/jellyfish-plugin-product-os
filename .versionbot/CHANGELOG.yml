@@ -1,4 +1,20 @@
 - commits:
+    - subject: Use latest version of jellyfish-logger
+      hash: a65caf5fc6be64022fccb3b7a249d8a4fd533535
+      body: >
+        This major version of the logger no longer handles uncaught exceptions,
+        which would result in mangled and unreadable log messages.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 4.0.23
+  title: "'Use latest version of jellyfish-logger'"
+  date: 2022-02-25T15:01:14.861Z
+- commits:
     - subject: Update internal-patch
       hash: 34821df00d52902e9cbe03907ac4a5ea7d2e57cf
       body: ""

@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 4.0.23 - 2022-02-25
+
+* Use latest version of jellyfish-logger [Lucian Buzzo]
+
 ## 4.0.22 - 2022-02-25
 
 * Update internal-patch [Renovate Bot]

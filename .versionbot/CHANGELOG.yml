@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update internal-patch
+      hash: 34821df00d52902e9cbe03907ac4a5ea7d2e57cf
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 4.0.22
+  title: "'Update internal-patch'"
+  date: 2022-02-25T08:24:11.560Z
+- commits:
     - subject: Transform serialize-error
       hash: bf9bc5a6fabb6c90befd3784f4685092696bd67b
       body: ""

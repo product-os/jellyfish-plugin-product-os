@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 4.0.28 - 2022-03-01
+
+* Remove jest esm transforms [Josh Bowling]
+
 ## 4.0.27 - 2022-03-01
 
 * Update @balena/jellyfish-worker from 18.8.10 to 19.0.0 [Renovate Bot]

@@ -1,4 +1,18 @@
 - commits:
+    - subject: Remove jest esm transforms
+      hash: 311b151aa9e561be65773f6656ad3d950c1998b0
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 4.0.28
+  title: "'Remove jest esm transforms'"
+  date: 2022-03-01T08:55:42.323Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 18.8.10 to 19.0.0
       hash: ec291fb53dd04d0d640031074e2272dbd805f46a
       body: ""

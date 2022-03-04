@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 4.0.32 - 2022-03-04
+
+* Bump core and worker [Josh Bowling]
+
 ## 4.0.31 - 2022-03-01
 
 * Update @balena/jellyfish-core from 15.1.0 to 16.0.0 [Renovate Bot]

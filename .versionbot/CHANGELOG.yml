@@ -1,4 +1,18 @@
 - commits:
+    - subject: Bump core and worker
+      hash: 0e33c2f24357aa7480bbb45e9f13d4742de3437c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 4.0.32
+  title: "'Bump core and worker'"
+  date: 2022-03-04T09:15:00.172Z
+- commits:
     - subject: Update @balena/jellyfish-core from 15.1.0 to 16.0.0
       hash: dd2dc361d69bdca3b277a8f1581dafe707b0c8ad
       body: ""

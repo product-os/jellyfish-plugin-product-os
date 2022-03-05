@@ -8,13 +8,12 @@ loops and transformers.
 Below is an example how to use this library:
 
 ```typescript
-import { cardMixins } from '@balena/jellyfish-core';
-import ProductOSPlugin from '@balena/jellyfish-plugin-product-os';
+import { productOsPlugin } from '@balena/jellyfish-plugin-product-os';
+import { PluginManager } from '@balena/jellyfish-worker';
 
-const plugin = new ProductOSPlugin();
-
-// Load cards from this plugin, can use custom mixins
-const cards = plugin.getCards(context, cardMixins);
+// Load cards from this plugin
+const pluginManager = new PluginManager([productOsPlugin()]);
+const cards = pluginManager.getCards();
 console.dir(cards);
 ```
 

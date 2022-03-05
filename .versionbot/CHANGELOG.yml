@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update skhema from 6.0.3 to 6.0.6
+      hash: 1979bec45f7d0e6f82196fa53dc58627f960436a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 4.0.34
+  title: "'Update skhema from 6.0.3 to 6.0.6'"
+  date: 2022-03-05T03:19:25.847Z
+- commits:
     - subject: Update readme usage example
       hash: 3874bb4439411eef445cabf469332f80ef507858
       body: ""

@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 4.0.35 - 2022-03-05
+
+* Update internal-patch [Renovate Bot]
+
 ## 4.0.34 - 2022-03-05
 
 * Update skhema from 6.0.3 to 6.0.6 [Josh Bowling]

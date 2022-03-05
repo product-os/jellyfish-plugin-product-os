@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 4.0.33 - 2022-03-05
+
+* Update readme usage example [Josh Bowling]
+
 ## 4.0.32 - 2022-03-04
 
 * Bump core and worker [Josh Bowling]

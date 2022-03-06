@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 4.0.37 - 2022-03-06
+
+* Update lint-staged from 12.3.4 to 12.3.5 [Josh Bowling]
+
 ## 4.0.36 - 2022-03-05
 
 * Update internal-patch [Renovate Bot]

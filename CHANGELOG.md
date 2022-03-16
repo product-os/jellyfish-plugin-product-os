@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 4.0.51 - 2022-03-16
+
+* Use autumndb instead of jellyfish-core [Lucian Buzzo]
+
 ## 4.0.50 - 2022-03-15
 
 * Update @balena/jellyfish-worker from 19.0.23 to 20.0.0 [Josh Bowling]

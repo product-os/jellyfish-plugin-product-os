@@ -1,4 +1,18 @@
 - commits:
+    - subject: Use autumndb instead of jellyfish-core
+      hash: 672c66e4dd23fd56e915aae3190ed8d745a2a1b2
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 4.0.51
+  title: "'Use autumndb instead of jellyfish-core'"
+  date: 2022-03-16T11:24:42.277Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 19.0.23 to 20.0.0
       hash: 002aa5f3cc3a49e6d5b4962179b761f1d465e67c
       body: ""

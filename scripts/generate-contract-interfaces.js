@@ -2,7 +2,7 @@ const path = require('path')
 const {
 	scripts
 } = require('@balena/jellyfish-types');
-const coreMixins = require('@balena/jellyfish-core/lib/cards/mixins');
+const coreMixins = require('autumndb/lib/cards/mixins');
 const { ProductOsPlugin } = require('../build')
 
 const context = {

@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 4.0.55 - 2022-03-18
+
+* Bump worker and autumndb [Josh Bowling]
+
 ## 4.0.54 - 2022-03-17
 
 * Update internal-patch [Renovate Bot]

@@ -1,4 +1,18 @@
 - commits:
+    - subject: Bump worker and autumndb
+      hash: 8d0ff598a1eaf861aed3a0b3abd4b963776cb494
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 4.0.55
+  title: "'Bump worker and autumndb'"
+  date: 2022-03-18T05:49:22.441Z
+- commits:
     - subject: Update internal-patch
       hash: 60cc887082829319d81e59db3daad373997c00e9
       body: ""

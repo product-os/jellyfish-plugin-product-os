@@ -1,6 +1,6 @@
 import type { PluginDefinition } from '@balena/jellyfish-worker';
-import { contracts } from './contracts';
 import { actions } from './actions';
+import { contracts } from './contracts';
 
 export * from './types';
 

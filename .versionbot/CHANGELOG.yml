@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fix upstreams in repo.yml
+      hash: 43dfc787554503a43ac3a589effc1ae0718ddc54
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 4.0.56
+  title: "'Fix upstreams in repo.yml'"
+  date: 2022-03-22T02:28:59.249Z
+- commits:
     - subject: Bump worker and autumndb
       hash: 8d0ff598a1eaf861aed3a0b3abd4b963776cb494
       body: ""

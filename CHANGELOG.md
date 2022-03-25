@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 4.0.56 - 2022-03-22
+
+* Fix upstreams in repo.yml [Josh Bowling]
+
 ## 4.0.55 - 2022-03-18
 
 * Bump worker and autumndb [Josh Bowling]

@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 20.2.0 to 21.0.0
+      hash: 60d44ae605cc6f5470a14c7b973ee947d4e42d9f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 4.0.57
+  title: "'Update @balena/jellyfish-worker from 20.2.0 to 21.0.0'"
+  date: 2022-03-25T01:58:59.128Z
+- commits:
     - subject: Fix upstreams in repo.yml
       hash: 43dfc787554503a43ac3a589effc1ae0718ddc54
       body: ""

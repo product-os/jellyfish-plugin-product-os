@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 4.0.57 - 2022-03-25
+
+* Update @balena/jellyfish-worker from 20.2.0 to 21.0.0 [Josh Bowling]
+
 ## 4.0.56 - 2022-03-22
 
 * Fix upstreams in repo.yml [Josh Bowling]

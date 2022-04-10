@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 4.0.58 - 2022-04-10
+
+* Update @balena/jellyfish-worker from 21.0.0 to 21.2.0 [Josh Bowling]
+
 ## 4.0.57 - 2022-03-25
 
 * Update @balena/jellyfish-worker from 20.2.0 to 21.0.0 [Josh Bowling]

@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 4.0.59 - 2022-04-15
+
+* 🔄 Synced file(s) with product-os/jellyfish-config [joshbwlng]
+
 ## 4.0.58 - 2022-04-10
 
 * Update @balena/jellyfish-worker from 21.0.0 to 21.2.0 [Josh Bowling]

@@ -1,5 +1,4 @@
 import type { PluginDefinition } from '@balena/jellyfish-worker';
-import { actions } from './actions';
 import { contracts } from './contracts';
 
 export * from './types';
@@ -16,6 +15,5 @@ export const productOsPlugin = (): PluginDefinition => {
 		name: 'Product-OS Plugin',
 		version,
 		contracts,
-		actions,
 	};
 };

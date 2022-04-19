@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 5.0.0 - 2022-04-19
+
+* Remove transformer contracts [Josh Bowling]
+
 ## 4.0.60 - 2022-04-18
 
 * Update @balena/jellyfish-worker from 21.2.0 to 22.0.0 [Josh Bowling]

@@ -1,4 +1,19 @@
 - commits:
+    - subject: Remove transformer contracts
+      hash: 4a50ab9573ed2a6c3f8b9b200c535dc8e22a06da
+      body: |
+        Moved these contracts to jellyfish-worker
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.0
+  title: "'Remove transformer contracts'"
+  date: 2022-04-19T04:27:35.679Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 21.2.0 to 22.0.0
       hash: 16b2f45c56f16b646f67efa4b9105a0ede69ed3f
       body: ""

@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update external-non-major
+      hash: 568db152f00b0507d76cb4a84bc3c56c3a14ed08
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 5.0.1
+  title: "'Update external-non-major'"
+  date: 2022-04-24T20:40:29.647Z
+- commits:
     - subject: Remove transformer contracts
       hash: 4a50ab9573ed2a6c3f8b9b200c535dc8e22a06da
       body: |

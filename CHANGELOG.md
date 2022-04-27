@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 5.0.6 - 2022-04-27
+
+* Update internal-patch [Renovate Bot]
+
 ## 5.0.5 - 2022-04-25
 
 * Update typedoc from 0.22.13 to 0.22.15 [Renovate Bot]

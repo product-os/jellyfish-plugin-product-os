@@ -45,7 +45,7 @@
   "license": "AGPL-3.0",
   "dependencies": {
     "@balena/jellyfish-assert": "^1.2.26",
-    "@balena/jellyfish-logger": "^5.0.26",
+    "@balena/jellyfish-logger": "^5.0.27",
     "@balena/jellyfish-worker": "^22.1.13",
     "lodash": "^4.17.21",
     "skhema": "^6.0.6"
@@ -55,7 +55,7 @@
     "@balena/jellyfish-types": "^2.0.5",
     "@balena/lint": "^6.2.0",
     "@types/jest": "^27.4.1",
-    "autumndb": "^19.1.29",
+    "autumndb": "^19.1.30",
     "deplint": "^1.1.3",
     "jest": "^27.5.1",
     "lint-staged": "^12.4.0",

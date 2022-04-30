@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update node engine version
+      hash: 765306db45ec72a8ab4b13173a9232baa4f7b86d
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.12
+  title: "'Update node engine version'"
+  date: 2022-04-30T10:33:56.840Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 22.1.13 to 23.0.0
       hash: adcfaf2d5d0d7a5c1205f4ec452824517d6d98ba
       body: ""

@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 5.0.12 - 2022-04-30
+
+* Update node engine version [Josh Bowling]
+
 ## 5.0.11 - 2022-04-30
 
 * Update @balena/jellyfish-worker from 22.1.13 to 23.0.0 [Josh Bowling]

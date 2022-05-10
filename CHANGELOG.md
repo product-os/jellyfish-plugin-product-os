@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 6.0.0 - 2022-05-10
+
+* Perform oauth with contracts [karaxuna]
+
 ## 5.0.20 - 2022-05-09
 
 * Update internal-patch [Renovate Bot]

@@ -1,4 +1,16 @@
 - commits:
+    - subject: Perform oauth with contracts
+      hash: 39790825da1b75a704b610e320e2a0f5785f531d
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+      author: karaxuna
+      nested: []
+  version: 6.0.0
+  title: "'Perform oauth with contracts'"
+  date: 2022-05-10T00:24:03.545Z
+- commits:
     - subject: Update internal-patch
       hash: c3daee4abd399506fa4df5b82fe5091da5c6b781
       body: ""

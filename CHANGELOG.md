@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 5.0.24 - 2022-05-11
+
+* Add relationship definitions [Ramiro González Maciel]
+
 ## 5.0.23 - 2022-05-11
 
 * Bump internal [Josh Bowling]

@@ -5,6 +5,11 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 6.0.0 - 2022-05-13
+
+* Update worker to v25 [karaxuna]
+* Update autumndb from 19.3.0 to 20.0.0 [Renovate Bot]
+
 ## 5.0.24 - 2022-05-11
 
 * Add relationship definitions [Ramiro González Maciel]

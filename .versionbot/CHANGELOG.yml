@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update worker to v26
+      hash: 06711f0b8c7a858800f67b398ad04f4041ae6749
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+      author: karaxuna
+      nested: []
+  version: 7.0.0
+  title: "'Update worker to v26'"
+  date: 2022-05-13T15:02:38.917Z
+- commits:
     - subject: Update internal-patch
       hash: 26895a80818f68cc6867305409e1af97f796bdb9
       body: ""

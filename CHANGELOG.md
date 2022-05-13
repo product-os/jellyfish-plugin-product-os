@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 7.0.0 - 2022-05-13
+
+* Update worker to v26 [karaxuna]
+
 ## 6.0.1 - 2022-05-13
 
 * Update internal-patch [Renovate Bot]

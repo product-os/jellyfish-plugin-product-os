@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 7.0.10 - 2022-05-30
+
+* Test worker [Josh Bowling]
+
 ## 7.0.9 - 2022-05-28
 
 * Update internal-patch (internal patch bumps) [Renovate Bot]

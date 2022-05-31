@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 7.0.11 - 2022-05-31
+
+* Update @balena/jellyfish-logger from 5.0.35 to 5.1.0 [Renovate Bot]
+
 ## 7.0.10 - 2022-05-31
 
 * Update typescript from 4.6.4 to 4.7.2 [Renovate Bot]

@@ -5,6 +5,11 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 7.0.10 - 2022-05-31
+
+* Update typescript from 4.6.4 to 4.7.2 [Renovate Bot]
+* Update typedoc from 0.22.15 to 0.22.16 [Renovate Bot]
+
 ## 7.0.9 - 2022-05-28
 
 * Update internal-patch (internal patch bumps) [Renovate Bot]

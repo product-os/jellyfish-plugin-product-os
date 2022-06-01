@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 7.0.12 - 2022-06-01
+
+* Update typedoc from 0.22.16 to 0.22.17 [Renovate Bot]
+
 ## 7.0.11 - 2022-05-31
 
 * Update @balena/jellyfish-logger from 5.0.35 to 5.1.0 [Renovate Bot]

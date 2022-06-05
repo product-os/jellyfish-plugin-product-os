@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 7.0.18 - 2022-06-05
+
+* Update dependencies (external major bumps) [Renovate Bot]
+
 ## 7.0.17 - 2022-06-05
 
 * Update dependencies [Josh Bowling]

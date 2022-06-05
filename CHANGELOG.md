@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 7.0.17 - 2022-06-05
+
+* Update dependencies [Josh Bowling]
+
 ## 7.0.16 - 2022-06-03
 
 * Update typescript from 4.7.2 to 4.7.3 [Renovate Bot]

@@ -1,7 +1,6 @@
 # Jellyfish productOS Plugin
 
-Provides a set of cards for adding productOS functionality to Jellyfish, such as
-loops and transformers.
+Provides a set of contracts for adding productOS functionality to Jellyfish, such as loops.
 
 # Usage
 
@@ -11,10 +10,10 @@ Below is an example how to use this library:
 import { productOsPlugin } from '@balena/jellyfish-plugin-product-os';
 import { PluginManager } from '@balena/jellyfish-worker';
 
-// Load cards from this plugin
+// Load contracts from this plugin
 const pluginManager = new PluginManager([productOsPlugin()]);
-const cards = pluginManager.getCards();
-console.dir(cards);
+const contracts = pluginManager.getCards();
+console.dir(contracts);
 ```
 
 # Documentation

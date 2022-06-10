@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 7.0.22 - 2022-06-10
+
+* Update readme [Josh Bowling]
+
 ## 7.0.21 - 2022-06-10
 
 * Update internal packages [Josh Bowling]

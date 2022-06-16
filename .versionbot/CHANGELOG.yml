@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 30.0.7 to 30.0.13
+      hash: 7b11b5b030b8fb2036852e264b61f194ca76bce3
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 7.0.24
+  title: "'Update @balena/jellyfish-worker from 30.0.7 to 30.0.13'"
+  date: 2022-06-16T00:47:10.112Z
+- commits:
     - subject: Update dependencies
       hash: a5b5fdff39c614d1893e2072cd0e5a59e934ea7a
       body: ""

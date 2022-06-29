@@ -5,6 +5,12 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 7.0.31 - 2022-06-29
+
+* Update @balena/jellyfish-worker from 30.0.25 to 30.1.0 [renovate[bot]]
+* Update autumndb from 20.1.24 to 20.2.0 [renovate[bot]]
+* Update typedoc from 0.23.1 to 0.23.2 [renovate[bot]]
+
 ## 7.0.30 - 2022-06-27
 
 * Update: update dependencies (internal patch bumps) [renovate[bot]]

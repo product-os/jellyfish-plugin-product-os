@@ -6,21 +6,16 @@
 
 // tslint:disable: array-type
 
-import { core } from '@balena/jellyfish-types';
+import type { Contract, ContractDefinition } from 'autumndb';
 
-interface ContractRepositoryData {
-	data: {
-		base_slug: string;
-		base_type: string;
-		[k: string]: unknown;
-	};
+export interface ContractRepositoryData {
+	base_slug: string;
+	base_type: string;
 	[k: string]: unknown;
 }
 
 export interface ContractRepositoryContractDefinition
-	extends Omit<core.ContractDefinition, 'data'>,
-		ContractRepositoryData {}
+	extends ContractDefinition<ContractRepositoryData> {}
 
 export interface ContractRepositoryContract
-	extends Omit<core.Contract, 'data'>,
-		ContractRepositoryData {}
+	extends Contract<ContractRepositoryData> {}

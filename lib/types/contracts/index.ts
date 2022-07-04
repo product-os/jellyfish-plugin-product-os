@@ -4,11 +4,7 @@
  * DO NOT MODIFY IT BY HAND!
  */
 
-export * from './contract-repository';
-export * from './image';
-export * from './image-source';
-export * from './service';
-export * from './service-source';
-export * from './transformer';
-export * from './task';
-export * from './transformer-worker';
+export type {
+	ContractRepositoryContract,
+	ContractRepositoryContractDefinition,
+} from './contract-repository';

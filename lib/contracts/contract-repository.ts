@@ -1,4 +1,4 @@
-import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
+import type { ContractDefinition } from 'autumndb';
 
 /**
  * `contract-repository` is a bucket for contracts with the same slug but different versions.

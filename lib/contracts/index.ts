@@ -1,7 +1,4 @@
-import type {
-	ContractData,
-	ContractDefinition,
-} from '@balena/jellyfish-types/build/core';
+import type { ContractData, ContractDefinition } from 'autumndb';
 import { contractRepository } from './contract-repository';
 import { loopBalenaIo } from './loop-balena-io';
 import { loopBalenalabs } from './loop-balenalabs';

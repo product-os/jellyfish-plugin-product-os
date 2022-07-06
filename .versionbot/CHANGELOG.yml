@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add contract type interface definitions
+      hash: bff44e96c832852f29799748342d74b5f8807e03
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 7.1.0
+  title: "'Add contract type interface definitions'"
+  date: 2022-07-06T02:23:42.598Z
+- commits:
     - subject: Update autumndb from 20.2.0 to 20.3.0
       hash: d06fcf6272e2cf43d2202254488611d76c18169c
       body: ""

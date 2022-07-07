@@ -11,5 +11,5 @@ test('Plugin returns collection of contracts', () => {
 
 test('Expected contracts are loaded', () => {
 	const contracts = pluginManager.getCards();
-	expect(contracts['contract-repository'].name).toBe('Repository');
+	expect(contracts['loop-product-os'].name).toBeDefined();
 });

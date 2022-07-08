@@ -1,4 +1,28 @@
 - commits:
+    - subject: Removes transformer relationship contract from productOS plugin.
+      hash: d281b61384be64260af46c2d62dbd4224f7ab676
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Carlo Miguel F. Cruz <carloc@balena.io>
+        signed-off-by: Carlo Miguel F. Cruz <carloc@balena.io>
+      author: Carlo Miguel F. Cruz
+      nested: []
+    - subject: Adds bcrypt to dev dependencies.
+      hash: 044dcbcd41fdcf6a80d02eb225e60458f3d633a0
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Carlo Miguel F. Cruz <carloc@balena.io>
+        signed-off-by: Carlo Miguel F. Cruz <carloc@balena.io>
+      author: Carlo Miguel F. Cruz
+      nested: []
+  version: 7.1.5
+  title: "'Removes transformer relationship contract from productOS plugin.'"
+  date: 2022-07-08T08:42:14.017Z
+- commits:
     - subject: Update typedoc from 0.23.5 to 0.23.6
       hash: 9587ee5e80c2895a5ff6de199a80f491f3273d6f
       body: ""

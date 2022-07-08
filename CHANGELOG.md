@@ -5,6 +5,11 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 7.1.5 - 2022-07-08
+
+* Removes transformer relationship contract from productOS plugin. [Carlo Miguel F. Cruz]
+* Adds bcrypt to dev dependencies. [Carlo Miguel F. Cruz]
+
 ## 7.1.4 - 2022-07-08
 
 * Update typedoc from 0.23.5 to 0.23.6 [renovate[bot]]

@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 7.1.4 - 2022-07-08
+
+* Update typedoc from 0.23.5 to 0.23.6 [renovate[bot]]
+
 ## 7.1.3 - 2022-07-06
 
 * Update jellyfish-worker to v31 [Josh Bowling]

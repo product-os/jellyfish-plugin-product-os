@@ -7,4 +7,5 @@
 export type {
 	ContractRepositoryContract,
 	ContractRepositoryContractDefinition,
+	ContractRepositoryData,
 } from './contract-repository';

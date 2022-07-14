@@ -1,4 +1,19 @@
 - commits:
+    - subject: Drop transformer-related contracts
+      hash: 58a422a19d88f90b794741d5c1e8e9e71df04c55
+      body: |
+        Moving these contracts to the worker with other transformer contracts
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 8.0.0
+  title: "'Drop transformer-related contracts'"
+  date: 2022-07-14T21:50:27.931Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 31.0.0 to 31.1.0
       hash: 3b9aa27e509b608aeb03932f78aa0a46c4e2c5bf
       body: ""

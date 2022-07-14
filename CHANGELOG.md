@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 8.0.0 - 2022-07-14
+
+* Drop transformer-related contracts [Josh Bowling]
+
 ## 7.1.6 - 2022-07-13
 
 * Update @balena/jellyfish-worker from 31.0.0 to 31.1.0 [renovate[bot]]

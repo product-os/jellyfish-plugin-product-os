@@ -5,6 +5,10 @@
 
 ## 0.1.0 - 2021-01-05
 
+## 8.0.1 - 2022-07-15
+
+* Add deprecation notice [Josh Bowling]
+
 ## 8.0.0 - 2022-07-14
 
 * Drop transformer-related contracts [Josh Bowling]

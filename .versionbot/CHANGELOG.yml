@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add deprecation notice
+      hash: 8cbf90b423c30ea1c0e0e1d099699f06bfc1734b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 8.0.1
+  title: "'Add deprecation notice'"
+  date: 2022-07-15T03:40:06.310Z
+- commits:
     - subject: Drop transformer-related contracts
       hash: 58a422a19d88f90b794741d5c1e8e9e71df04c55
       body: |

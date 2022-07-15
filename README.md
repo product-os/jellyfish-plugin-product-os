@@ -1,3 +1,5 @@
+**Notice: This utility has been discontinued. The contracts provided by this module have been merged into [`jellyfish-worker`](https://github.com/product-os/jellyfish-worker).**
+
 # Jellyfish productOS Plugin
 
 Provides a set of contracts for adding productOS functionality to Jellyfish, such as loops.
